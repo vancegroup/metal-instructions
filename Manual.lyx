@@ -263,7 +263,14 @@ status collapsed
 \end_layout
 
 \begin_layout Standard
-This computer contains a single 
+This computer (
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:head-node"
+
+\end_inset
+
+) contains a single 
 \begin_inset CommandInset ref
 LatexCommand nameref
 reference "sub:NVIDIA-Quadro-FX-5800"
@@ -276,6 +283,46 @@ ns, as well as to serve as a control machine for the tracking system and
  other miscellaneous tasks.
  It controls the only display on the desk that is not connected to a wall
  projector.
+\begin_inset Float marginfigure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Hardware/head-node.png
+	width 90col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:head-node"
+
+\end_inset
+
+Head node - the top rack-mounted server.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -312,7 +359,14 @@ status collapsed
 \end_layout
 
 \begin_layout Standard
-This computer is connected to two 
+This computer (
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:render-node"
+
+\end_inset
+
+) is connected to two 
 \begin_inset CommandInset ref
 LatexCommand nameref
 reference "sub:NVIDIA-Quadro-Plex"
@@ -330,6 +384,48 @@ reference "sub:NVIDIA-Quadro-FX-5800"
  Only three are used for display purposes (one per wall), and a DVI extender
  also serves as a splitter to feed the same image sent to the projectors
  to the three left-most displays on the desk.
+\begin_inset Float marginfigure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Hardware/render-node.png
+	width 90col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:render-node"
+
+\end_inset
+
+Render node - the bottom rack-mounted server.
+ I promise this is a different computer that just looks the same from the
+ front - you'll just have to trust me.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -417,32 +513,21 @@ Terminology and Components
 \end_layout
 
 \begin_layout Subsection
-ART TrackPack4
 \begin_inset CommandInset label
 LatexCommand label
 name "sub:ART-TrackPack4"
 
 \end_inset
 
-
+ART TrackPack4
 \end_layout
 
 \begin_layout Standard
-An infrared optical tracking system to provide position and orientation
- tracking of one or more targets in the space.
- It consists of four cameras mounted around the top of the volume, an 
-\begin_inset CommandInset ref
-LatexCommand nameref
-reference "sub:ARTtrack-Controller/TP"
+An infrared optical tracking system by Advanced Realtime Tracking
+\begin_inset Foot
+status collapsed
 
-\end_inset
-
- computer, and a number of tracking targets.
- The tracking cameras have one red LED lit when they are inactive, and two
- red LEDs lit when they are active.
-\end_layout
-
-\begin_layout Standard
+\begin_layout Plain Layout
 See also 
 \begin_inset Flex URL
 status collapsed
@@ -457,15 +542,30 @@ http://www.ar-tracking.de/TrackPack4.254.0.html
 .
 \end_layout
 
+\end_inset
+
+ to provide position and orientation tracking of one or more targets in
+ the physical volume.
+ It consists of four cameras mounted around the top of the volume, an 
+\begin_inset CommandInset ref
+LatexCommand nameref
+reference "sub:ARTtrack-Controller/TP"
+
+\end_inset
+
+ computer, and a number of tracking targets.
+ The tracking cameras have one red LED lit when they are inactive, and two
+ red LEDs lit when they are active.
+\end_layout
+
 \begin_layout Subsection
-ARTtrack Controller/TP
 \begin_inset CommandInset label
 LatexCommand label
 name "sub:ARTtrack-Controller/TP"
 
 \end_inset
 
-
+ARTtrack Controller/TP
 \end_layout
 
 \begin_layout Standard
@@ -485,18 +585,71 @@ reference "sub:ART-TrackPack4"
 \end_inset
 
  that controls the cameras, processes input into tracking data, and synchronizes
- the infrared flashes with the stereo synchronization emitters.
+ the infrared flashes with the stereo emitters.
+ Located near the top of the server rack in METaL; see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:ARTtrack-Controller/TP"
+
+\end_inset
+
+.
+\begin_inset Float marginfigure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Hardware/tracking-pc.png
+	width 90col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:ARTtrack-Controller/TP"
+
+\end_inset
+
+ARTtrack Controller/TP (
+\begin_inset Flex Emph
+status collapsed
+
+\begin_layout Plain Layout
+a.k.a.
+\end_layout
+
+\end_inset
+
+ Tracking Computer)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
-DTrack2
 \begin_inset CommandInset label
 LatexCommand label
 name "sub:DTrack2"
 
 \end_inset
 
-
+DTrack2
 \end_layout
 
 \begin_layout Standard
@@ -511,7 +664,7 @@ reference "sub:ARTtrack-Controller/TP"
  More functionality is available, but it is not needed for use with the
  four existing tracking targets.
 \begin_inset Marginal
-status open
+status collapsed
 
 \begin_layout Plain Layout
 The DTrack2 software is installed on both the head and render node in Windows,
@@ -525,14 +678,13 @@ The DTrack2 software is installed on both the head and render node in Windows,
 \end_layout
 
 \begin_layout Subsection
-DuHIC
 \begin_inset CommandInset label
 LatexCommand label
 name "sub:DuHIC"
 
 \end_inset
 
-
+DuHIC
 \end_layout
 
 \begin_layout Standard
@@ -555,34 +707,23 @@ reference "sub:NVIDIA-Quadro-Plex"
 \end_layout
 
 \begin_layout Subsection
-NVIDIA G-Sync II card
 \begin_inset CommandInset label
 LatexCommand label
 name "sub:NVIDIA-G-Sync-II"
 
 \end_inset
 
-
+NVIDIA G-Sync II card
 \end_layout
 
 \begin_layout Standard
 An card that internally connects with two Quadro graphics cards, and externally
  with other G-Sync cards, to provide framelocked rendering and synchronized
- stereo.
-\begin_inset Marginal
+ stereo
+\begin_inset Foot
 status collapsed
 
 \begin_layout Plain Layout
-The G-Sync II card uses the PCI expansion slot for mounting only - all power
- and data comes from its connection to the Quadro cards.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 See also 
 \begin_inset Flex URL
 status collapsed
@@ -597,23 +738,27 @@ http://www.nvidia.com/page/quadrofx_gsync.html
 .
 \end_layout
 
+\end_inset
+
+.
+\end_layout
+
 \begin_layout Subsection
-NVIDIA Quadro FX 5800
 \begin_inset CommandInset label
 LatexCommand label
 name "sub:NVIDIA-Quadro-FX-5800"
 
 \end_inset
 
-
+NVIDIA Quadro FX 5800
 \end_layout
 
 \begin_layout Standard
-Professional-class graphics card from NVIDIA (using a variant of the GT200GL
- chipset) with 4GB of RAM and support for OpenGL quad-buffered stereo.
-\end_layout
+Professional-class graphics card from NVIDIA
+\begin_inset Foot
+status collapsed
 
-\begin_layout Standard
+\begin_layout Plain Layout
 See also 
 \begin_inset Flex URL
 status collapsed
@@ -628,15 +773,20 @@ http://www.nvidia.com/object/product_quadro_fx_5800_us.html
 .
 \end_layout
 
+\end_inset
+
+ (using a variant of the GT200GL chipset) with 4GB of RAM and support for
+ OpenGL quad-buffered stereo.
+\end_layout
+
 \begin_layout Subsection
-NVIDIA Quadro Plex 2200 D2
 \begin_inset CommandInset label
 LatexCommand label
 name "sub:NVIDIA-Quadro-Plex"
 
 \end_inset
 
-
+NVIDIA Quadro Plex 2200 D2
 \end_layout
 
 \begin_layout Standard
@@ -645,6 +795,27 @@ An external
 \end_inset
 
 Visual Computing System
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+See also 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.nvidia.com/object/product_quadroplex_2200_d2_us.html
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
 \begin_inset Quotes erd
 \end_inset
 
@@ -673,21 +844,55 @@ reference "sub:DuHIC"
  in the host system (METaL's render node).
  They are pre-configured as a closed component - opening the case voids
  the warranty.
-\end_layout
-
-\begin_layout Standard
-See also 
-\begin_inset Flex URL
-status collapsed
-
-\begin_layout Plain Layout
-
-http://www.nvidia.com/object/product_quadroplex_2200_d2_us.html
-\end_layout
+ METaL has two of these mounted together in the server rack; see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:quadro-plexes"
 
 \end_inset
 
 .
+ 
+\begin_inset Float marginfigure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Hardware/quadro-plex.png
+	width 90col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:quadro-plexes"
+
+\end_inset
+
+METaL's two NVIDIA Quadro Plex 2200 D2 systems mounted in the rack.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_body
