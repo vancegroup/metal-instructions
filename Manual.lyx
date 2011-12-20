@@ -64,7 +64,7 @@ logicalmkup
 \begin_body
 
 \begin_layout Title
-METaL Instructions and User Manual
+METaL User Manual and Technical Details
 \end_layout
 
 \begin_layout Author
@@ -78,6 +78,10 @@ LatexCommand tableofcontents
 \end_inset
 
 
+\end_layout
+
+\begin_layout Part
+User Manual
 \end_layout
 
 \begin_layout Chapter
@@ -210,6 +214,46 @@ One gigabit Ethernet switch is dedicated to system control, tracking data,
 \end_layout
 
 \begin_layout Chapter
+Troubleshooting
+\end_layout
+
+\begin_layout Section
+Tracking Issues
+\end_layout
+
+\begin_layout Section
+Input Issues
+\end_layout
+
+\begin_layout Section
+Graphics Issues
+\end_layout
+
+\begin_layout Chapter
+In Case Of...
+\end_layout
+
+\begin_layout Section
+Mild-moderate VRISE (
+\begin_inset Quotes eld
+\end_inset
+
+simulator sickness
+\begin_inset Quotes erd
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Section
+Severe VRISE
+\end_layout
+
+\begin_layout Part
+System Details
+\end_layout
+
+\begin_layout Chapter
 Computers and Networking
 \end_layout
 
@@ -232,7 +276,7 @@ There are three
 \begin_layout Section
 Head node
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Flex Code
@@ -286,7 +330,7 @@ ns, as well as to serve as a control machine for the tracking system and
 \begin_inset Float marginfigure
 wide false
 sideways false
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -328,7 +372,7 @@ Head node - the top rack-mounted server.
 \begin_layout Section
 Render node
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Flex Code
@@ -431,7 +475,7 @@ Render node - the bottom rack-mounted server.
 \begin_layout Section
 Device server
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Flex Code
@@ -461,58 +505,26 @@ status collapsed
 
 \end_layout
 
-\begin_layout Section
-Tracking appliance
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-Only accessible via the internal network, at 
-\begin_inset Flex Code
-status collapsed
-
-\begin_layout Plain Layout
-192.168.1.22
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
+\begin_layout Chapter
+Tracking
 \end_layout
 
 \begin_layout Standard
-This is the 
+An ART TrackPack 4 system provides position and orientation tracking in
+ the physical volume.
+ Its components and configuration are discussed below.
+ When the tracking system is enabled, the 
 \begin_inset CommandInset ref
 LatexCommand nameref
 reference "sub:ARTtrack-Controller/TP"
 
 \end_inset
 
- that is in charge of the tracking data.
- When activated using the DTrack2 software (typically from the head node),
- it sends tracking updates in the DTrack protocol to UDP port 5000 on both
+ sends tracking updates using the DTrack protocol to UDP port 5000 on both
  the head and render nodes.
- 
 \end_layout
 
-\begin_layout Chapter
-Troubleshooting
-\end_layout
-
-\begin_layout Chapter
-In Case Of...
-\end_layout
-
-\begin_layout Chapter
-Terminology and Components
-\end_layout
-
-\begin_layout Subsection
+\begin_layout Section
 \begin_inset CommandInset label
 LatexCommand label
 name "sub:ART-TrackPack4"
@@ -558,7 +570,7 @@ reference "sub:ARTtrack-Controller/TP"
  red LEDs lit when they are active.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 \begin_inset CommandInset label
 LatexCommand label
 name "sub:ARTtrack-Controller/TP"
@@ -569,7 +581,7 @@ ARTtrack Controller/TP
 \end_layout
 
 \begin_layout Standard
-The 
+This is the official name of the 
 \begin_inset Quotes eld
 \end_inset
 
@@ -577,7 +589,27 @@ appliance-style
 \begin_inset Quotes erd
 \end_inset
 
- computer supplied with the 
+ computer
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Only accessible via the internal network, at 
+\begin_inset Flex Code
+status collapsed
+
+\begin_layout Plain Layout
+192.168.1.22
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ supplied with the 
 \begin_inset CommandInset ref
 LatexCommand nameref
 reference "sub:ART-TrackPack4"
@@ -642,7 +674,7 @@ a.k.a.
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 \begin_inset CommandInset label
 LatexCommand label
 name "sub:DTrack2"
@@ -663,87 +695,25 @@ reference "sub:ARTtrack-Controller/TP"
 , typically just to start and stop tracking.
  More functionality is available, but it is not needed for use with the
  four existing tracking targets.
-\begin_inset Marginal
-status collapsed
+\end_layout
 
-\begin_layout Plain Layout
+\begin_layout Standard
 The DTrack2 software is installed on both the head and render node in Windows,
  but is typically only used on the head node.
  Tracking data is sent to both nodes regardless of where DTrack2 is run.
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection
-\begin_inset CommandInset label
-LatexCommand label
-name "sub:DuHIC"
-
-\end_inset
-
-DuHIC
+\begin_layout Chapter
+Graphics
 \end_layout
 
 \begin_layout Standard
-This stands for 
-\begin_inset Quotes eld
-\end_inset
-
-Dual Host Interface Controller,
-\begin_inset Quotes erd
-\end_inset
-
- the PCI-Express x16 card in a host computer that connects it to two 
-\begin_inset CommandInset ref
-LatexCommand nameref
-reference "sub:NVIDIA-Quadro-Plex"
-
-\end_inset
-
- systems.
+Four of the five graphics cards in the system are connected to the render
+ node.
+ 
 \end_layout
 
-\begin_layout Subsection
-\begin_inset CommandInset label
-LatexCommand label
-name "sub:NVIDIA-G-Sync-II"
-
-\end_inset
-
-NVIDIA G-Sync II card
-\end_layout
-
-\begin_layout Standard
-An card that internally connects with two Quadro graphics cards, and externally
- with other G-Sync cards, to provide framelocked rendering and synchronized
- stereo
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-See also 
-\begin_inset Flex URL
-status collapsed
-
-\begin_layout Plain Layout
-
-http://www.nvidia.com/page/quadrofx_gsync.html
-\end_layout
-
-\end_inset
-
-.
-\end_layout
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Subsection
+\begin_layout Section
 \begin_inset CommandInset label
 LatexCommand label
 name "sub:NVIDIA-Quadro-FX-5800"
@@ -777,9 +747,10 @@ http://www.nvidia.com/object/product_quadro_fx_5800_us.html
 
  (using a variant of the GT200GL chipset) with 4GB of RAM and support for
  OpenGL quad-buffered stereo.
+ One is installed in the head node in METaL.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 \begin_inset CommandInset label
 LatexCommand label
 name "sub:NVIDIA-Quadro-Plex"
@@ -886,13 +857,76 @@ METaL's two NVIDIA Quadro Plex 2200 D2 systems mounted in the rack.
 
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:DuHIC"
+
+\end_inset
+
+DuHIC
+\end_layout
+
+\begin_layout Standard
+This stands for 
+\begin_inset Quotes eld
+\end_inset
+
+Dual Host Interface Controller,
+\begin_inset Quotes erd
+\end_inset
+
+ the PCI-Express x16 card in a host computer that connects it to two 
+\begin_inset CommandInset ref
+LatexCommand nameref
+reference "sub:NVIDIA-Quadro-Plex"
+
+\end_inset
+
+ systems.
+ Installed in the render node in METaL.
+\end_layout
+
+\begin_layout Section
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:NVIDIA-G-Sync-II"
+
+\end_inset
+
+NVIDIA G-Sync II card
+\end_layout
+
+\begin_layout Standard
+An card that internally connects with two Quadro graphics cards, and externally
+ with other G-Sync cards, to provide framelocked rendering and synchronized
+ stereo
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+See also 
+\begin_inset Flex URL
+status collapsed
+
 \begin_layout Plain Layout
 
+http://www.nvidia.com/page/quadrofx_gsync.html
 \end_layout
 
 \end_inset
 
+.
+\end_layout
 
+\end_inset
+
+.
 \end_layout
 
 \end_body
