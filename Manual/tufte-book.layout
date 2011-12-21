@@ -140,6 +140,9 @@ InsetLayout Flex:Sidenote
 End
 
 
+Counter		sidenote
+End
+
 InsetLayout Foot
 	LabelString           foot
 	Counter               sidenote
@@ -250,6 +253,7 @@ End
 
 Counter		margintable
 End
+
 
 # define the floats
 Float
