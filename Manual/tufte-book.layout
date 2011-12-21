@@ -139,6 +139,46 @@ InsetLayout Flex:Sidenote
 	EndFont
 End
 
+
+InsetLayout Foot
+	LabelString           foot
+	Counter               sidenote
+	Font
+	  Size                Small
+	EndFont
+	LabelFont
+	  Color               footlabel
+	  Size                Small
+	EndFont
+	MultiPar              true
+	RefPrefix             fn
+	HTMLLabel             \arabic{footnote}
+	HTMLInnerTag          div
+	HTMLStyle
+		span.foot_label {
+			vertical-align: super;
+			font-size: smaller;
+			font-weight: bold;
+			text-decoration: underline;
+		}
+		div.foot {
+			display: inline;
+			font-size: small;
+			font-weight: medium;
+			font-family: serif;
+			font-variant: normal;
+			font-style: normal;
+		}
+		div.foot_inner { display: none; }
+		div.foot:hover div.foot_inner {
+			display: block;
+			border: 1px double black;
+			margin: 0em 1em;
+			padding: 1em;
+		}
+	EndHTMLStyle
+End
+
 InsetLayout Marginal
 	CopyStyle	Flex:Sidenote
 	LatexName	marginnote
