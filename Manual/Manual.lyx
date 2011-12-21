@@ -138,6 +138,19 @@ http://vrac.iastate.edu/METaL/
 \end_layout
 
 \begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+TODO de-duplication, and make this a proper introduction
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 METaL consists of:
 \end_layout
 
@@ -231,12 +244,51 @@ Troubleshooting
 Tracking Issues
 \end_layout
 
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+TODO
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Input Issues
 \end_layout
 
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+TODO
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Graphics Issues
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+TODO
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Chapter
@@ -255,8 +307,35 @@ simulator sickness
 )
 \end_layout
 
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+TODO - wint-o-green lifesavers, water - cite?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Severe VRISE
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+TODO - find number to call for cleanup.
+ Reporting?
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Part
@@ -515,6 +594,19 @@ status collapsed
 \end_inset
 
  on the internal network
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+TODO
 \end_layout
 
 \end_inset
@@ -1355,6 +1447,23 @@ http://www.nvidia.com/page/quadrofx_gsync.html
 \end_inset
 
 .
+\end_layout
+
+\begin_layout Chapter
+Input
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+TODO
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_body
