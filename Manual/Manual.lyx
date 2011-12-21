@@ -88,7 +88,32 @@ User Manual
 Tech Specs
 \end_layout
 
+\begin_layout Full Width
+\begin_inset Graphics
+	filename ../logos/vector-scalable-exports/colorwithshadow.eps
+	width 90col%
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
+\begin_inset Flex NewThought
+status collapsed
+
+\begin_layout Plain Layout
+The METaL (Multimodal Experience Testbed and Laboratory) lab
+\end_layout
+
+\end_inset
+
+ is a human-scale immersive environment for development of natural interaction
+ techniques in virtual reality.
+ This facility supports rapid development iteration and is comparable to
+ virtual reality systems found in industry.
+ Integration of haptic force-feedback with visual display, audio effects,
+ and physical simulation permits the creation of multimodal experiences.
 \begin_inset Marginal
 status collapsed
 
@@ -110,21 +135,6 @@ http://vrac.iastate.edu/METaL/
 \end_inset
 
 
-\begin_inset Flex NewThought
-status collapsed
-
-\begin_layout Plain Layout
-The METaL (Multimodal Experience Testbed and Laboratory) lab
-\end_layout
-
-\end_inset
-
- is a human-scale immersive environment for development of natural interaction
- techniques in virtual reality.
- This facility supports rapid development iteration and is comparable to
- virtual reality systems found in industry.
- Integration of haptic force-feedback with visual display, audio effects,
- and physical simulation permits the creation of multimodal experiences.
 \end_layout
 
 \begin_layout Standard
