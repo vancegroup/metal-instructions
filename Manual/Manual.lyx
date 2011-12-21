@@ -841,7 +841,7 @@ CrystalEyes
  See 
 \begin_inset CommandInset ref
 LatexCommand formatted
-reference "figr:Glasses-target"
+reference "fig:Glasses-target"
 
 \end_inset
 
@@ -867,7 +867,7 @@ status collapsed
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "figr:Glasses-target"
+name "fig:Glasses-target"
 
 \end_inset
 
