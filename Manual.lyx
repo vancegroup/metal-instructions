@@ -254,7 +254,7 @@ System Details
 \end_layout
 
 \begin_layout Chapter
-Computers and Networking
+Computers and networking
 \end_layout
 
 \begin_layout Standard
@@ -431,7 +431,7 @@ reference "sub:NVIDIA-Quadro-FX-5800"
 \begin_inset Float marginfigure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -454,8 +454,7 @@ name "fig:render-node"
 \end_inset
 
 Render node - the bottom rack-mounted server.
- I promise this is a different computer that just looks the same from the
- front - you'll just have to trust me.
+ You'll just have to trust me that this is a picture of a different computer.
 \end_layout
 
 \end_inset
