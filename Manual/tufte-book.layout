@@ -139,11 +139,11 @@ InsetLayout Flex:Sidenote
 	EndFont
 End
 
-InsetLayout Flex:Marginnote
+InsetLayout Marginal
 	CopyStyle	Flex:Sidenote
 	LatexName	marginnote
 	Decoration	classic
-	LabelString	"marginnote"
+	LabelString	margin
 	Font
 	  Family	Roman
 	  Shape		Up
