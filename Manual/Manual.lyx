@@ -525,7 +525,7 @@ An ART TrackPack 4 system provides position and orientation tracking in
  When the tracking system is enabled, the 
 \begin_inset CommandInset ref
 LatexCommand nameref
-reference "sub:ARTtrack-Controller/TP"
+reference "sub:ARTtrack-Controller-TP"
 
 \end_inset
 
@@ -570,7 +570,7 @@ http://www.ar-tracking.de/TrackPack4.254.0.html
  It consists of four cameras mounted around the top of the volume, an 
 \begin_inset CommandInset ref
 LatexCommand nameref
-reference "sub:ARTtrack-Controller/TP"
+reference "sub:ARTtrack-Controller-TP"
 
 \end_inset
 
@@ -582,7 +582,7 @@ reference "sub:ARTtrack-Controller/TP"
 \begin_layout Section
 \begin_inset CommandInset label
 LatexCommand label
-name "sub:ARTtrack-Controller/TP"
+name "sub:ARTtrack-Controller-TP"
 
 \end_inset
 
@@ -650,7 +650,7 @@ reference "sub:ART-TrackPack4"
  Located near the top of the server rack in METaL; see 
 \begin_inset CommandInset ref
 LatexCommand formatted
-reference "fig:ARTtrack-Controller/TP"
+reference "fig:ARTtrack-Controller-TP"
 
 \end_inset
 
@@ -676,7 +676,7 @@ status collapsed
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:ARTtrack-Controller/TP"
+name "fig:ARTtrack-Controller-TP"
 
 \end_inset
 
@@ -737,7 +737,7 @@ http://www.ar-tracking.de/Tracking-software-DTrack2.19+B6Jkw9MA__.0.html
  used to control the 
 \begin_inset CommandInset ref
 LatexCommand nameref
-reference "sub:ARTtrack-Controller/TP"
+reference "sub:ARTtrack-Controller-TP"
 
 \end_inset
 
