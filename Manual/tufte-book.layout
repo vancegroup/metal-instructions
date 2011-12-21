@@ -52,8 +52,8 @@ NoCounter subsection
 NoStyle Subsubsection
 NoCounter subsubsection
 NoStyle Subsubsection*
-#NoStyle Paragraph
-#NoCounter paragraph
+NoStyle Paragraph
+NoCounter paragraph
 NoStyle Paragraph*
 NoStyle Subparagraph
 NoCounter subparagraph
@@ -117,20 +117,6 @@ Style Subsection
 	Font
 	  Series	Bold
 	  Size		Large
-	EndFont
-End
-
-Style Paragraph
-	CopyStyle	Section
-	TocLevel	3
-	LatexName	paragraph
-	TopSep		0.9
-	BottomSep	0.5
-	ParSep		0.5
-	RefPrefix par
-	Font
-	  Series	Bold
-	  Size		small
 	EndFont
 End
 
