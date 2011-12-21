@@ -581,7 +581,27 @@ ARTtrack Controller/TP
 \end_layout
 
 \begin_layout Standard
-This is the official name of the 
+This is the official name
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.ar-tracking.de/ARTtrack-Controller.21+B6Jkw9MA__.0.html#c400
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ of the 
 \begin_inset Quotes eld
 \end_inset
 
@@ -685,7 +705,27 @@ DTrack2
 \end_layout
 
 \begin_layout Standard
-The software used to control the 
+The software
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://www.ar-tracking.de/Tracking-software-DTrack2.19+B6Jkw9MA__.0.html
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ used to control the 
 \begin_inset CommandInset ref
 LatexCommand nameref
 reference "sub:ARTtrack-Controller/TP"
@@ -698,9 +738,380 @@ reference "sub:ARTtrack-Controller/TP"
 \end_layout
 
 \begin_layout Standard
-The DTrack2 software is installed on both the head and render node in Windows,
- but is typically only used on the head node.
+The DTrack2 software (version 
+\begin_inset Flex Strong
+status collapsed
+
+\begin_layout Plain Layout
+2.5.0
+\end_layout
+
+\end_inset
+
+) is installed on both the head and render node in Windows and Linux, but
+ is typically only used on the head node.
  Tracking data is sent to both nodes regardless of where DTrack2 is run.
+\end_layout
+
+\begin_layout Standard
+The TCP/IP protocol used to interact with the controller is allegedly available,
+ however, the documentation we have doesn't include that information.
+\end_layout
+
+\begin_layout Section
+Tracking targets
+\end_layout
+
+\begin_layout Standard
+We use the term 
+\begin_inset Quotes eld
+\end_inset
+
+target
+\begin_inset Quotes erd
+\end_inset
+
+ to refer to a rigid configuration of multiple retro-reflective spheres
+ that is used to provide a single position/orientation tracked point
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+A description of all possible 
+\begin_inset Quotes eld
+\end_inset
+
+standard targets
+\begin_inset Quotes erd
+\end_inset
+
+ available from ART can be found at 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.ar-tracking.de/Standard-Targets.59.0.html
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
+ When we remember to, we call the retro-reflective spheres 
+\begin_inset Quotes eld
+\end_inset
+
+markers.
+\begin_inset Quotes erd
+\end_inset
+
+ We have four targets, two of which have fairly dedicated uses, and two
+ of which are more versatile.
+\end_layout
+
+\begin_layout Subsection
+Stereo glasses target
+\end_layout
+
+\begin_layout Standard
+Although we aren't using StereoGraphics CrystalEyes shutter glasses, we
+ are using what ART calls the 
+\begin_inset Quotes eld
+\end_inset
+
+CrystalEyes
+\begin_inset Quotes erd
+\end_inset
+
+ target on our stereo glasses.
+ See 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "figr:Glasses-target"
+
+\end_inset
+
+.
+\begin_inset Float marginfigure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Hardware/art-tracked-glasses-transparent.png
+	width 90col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "figr:Glasses-target"
+
+\end_inset
+
+Glasses target
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Wand target (
+\begin_inset Flex Emph
+status collapsed
+
+\begin_layout Plain Layout
+a.k.a.
+\end_layout
+
+\end_inset
+
+ tree target)
+\end_layout
+
+\begin_layout Standard
+The base of the 
+\begin_inset Quotes eld
+\end_inset
+
+tree target
+\begin_inset Quotes erd
+\end_inset
+
+ contains a threaded hole.
+ We have put a threaded post on the end of a Nintendo Wii Remote and screwed
+ the tree target on to serve as our wand in the space.
+ The Wii Remote is used for buttons only (not using accelerometer or IR
+ data), while it is accurately tracked by the optical tracker.
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+todo - link to other section about wiimote
+\end_layout
+
+\end_inset
+
+ See 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Tree-target-on-wiimote"
+
+\end_inset
+
+.
+\begin_inset Float marginfigure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Hardware/wiimote-wand-transparent.png
+	width 90col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Tree-target-on-wiimote"
+
+\end_inset
+
+Tree target on Wii Remote
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Claw target (
+\begin_inset Flex Emph
+status collapsed
+
+\begin_layout Plain Layout
+a.k.a.
+\end_layout
+
+\end_inset
+
+ hand target)
+\end_layout
+
+\begin_layout Standard
+This is a large, versatile target intended for tracking a hand.
+ In this usage, it works best on the back of your hand, with the long axis
+ on the 
+\begin_inset Quotes eld
+\end_inset
+
+thumb
+\begin_inset Quotes erd
+\end_inset
+
+ side, and the elastic around your hand and over the web between thumb and
+ index finger.
+ It can also be used to attach to anything else you might want to track.
+ See 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Claw-target"
+
+\end_inset
+
+.
+ Don't confuse this with its baby sibling, the wrist target.
+\begin_inset Float marginfigure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Hardware/claw-target-transparent.png
+	width 90col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Claw-target"
+
+\end_inset
+
+Claw/hand target
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Wrist target
+\end_layout
+
+\begin_layout Standard
+ART calls this smaller version of the claw target a 
+\begin_inset Quotes eld
+\end_inset
+
+hand target,
+\begin_inset Quotes erd
+\end_inset
+
+ but unless you're tracking very small hands (or zombies who always keep
+ the backs of their hands facing up) it doesn't work too well for this purpose.
+ It's more wrist-sized, in my opinion, hence its de-facto name in METaL.
+ It's currently attached to a dataglove (with the elastic around a ribbon
+ cable), but can be moved around as desired.
+ See 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Wrist-target-on-5dt"
+
+\end_inset
+
+.
+\begin_inset Float marginfigure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Hardware/left-glove-5dtserial-transparent.png
+	width 90col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Wrist-target-on-5dt"
+
+\end_inset
+
+Wrist target on 5DT data glove
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Chapter
