@@ -12,7 +12,7 @@
 %%   License information appended
 %% 
 \ProvidesPackage{hardwrap}
-  [2011/02/12 v0.2 Hard wrap messages]
+  [2011/02/13 v0.3 Hard wrap messages]
 \IfFileExists{ifplatform.sty}{%
   \RequirePackage{ifplatform}
 }{%
@@ -35,10 +35,10 @@
 \let\hw@expanding@space\space
 \protected\def\hw@insert@newline{\hw@insert@newline}
 \protected\def\hw@scanstop{\hw@scanstop}
-\def\hw@strlen#1{%
+\long\def\hw@strlen#1{%
   \numexpr0\hw@Ncharscan#1\hw@scanstop\relax
 }
-\def\hw@Ncharscan#1{%
+\long\def\hw@Ncharscan#1{%
  \ifx#1\hw@scanstop
    \expandafter\@gobble
  \else
@@ -62,10 +62,10 @@
 \ifnum\hw@maxprintline=0\relax
   \hw@maxprintline=79\relax % default
 \fi
-\newcommand*{\setmaxprintline}[1]{%
+\newcommand*\setmaxprintline[1]{%
   \hw@maxprintline=#1\relax
 }
-\newcommand*\HardWrap[5]{%
+\newcommand\HardWrap[5]{%
   \begingroup
     \hw@maxprintline=\numexpr#2\relax
     \let\space\hw@protected@space
@@ -108,7 +108,7 @@
   \fi\fi\fi\fi\fi
   \next
 }
-\def\hw@dochar#1{%
+\long\def\hw@dochar#1{%
   \edef\hw@currword{\hw@currword #1}%
   \hw@scan
 }
@@ -164,7 +164,7 @@
     }%
   \fi
 }
-\edef\hw@process@group#1{%
+\long\edef\hw@process@group#1{%
   \expandafter\@gobble\string\{%
   #1%
   \expandafter\@gobble\string\}%
@@ -172,6 +172,7 @@
 \def\HardWrapSetup{%
   \def\MessageBreak{\\}%
   \def\newline{\\}%
+  \def\par{\\\\}%
   \def\emph##1{\string_##1\string_}%
   \def\textit##1{/##1/}%
   \def\textbf##1{*##1*}%
