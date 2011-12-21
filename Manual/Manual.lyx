@@ -277,10 +277,18 @@ There are three
 
 \end_inset
 
- computers involved in METaL (plus a tracker appliance), which are connected
- to two networks - one external and one internal.
+ computers involved in METaL (plus a tracker appliance - see details 
+\begin_inset CommandInset ref
+LatexCommand vpageref
+reference "sub:ARTtrack-Controller-TP"
+
+\end_inset
+
+), which are connected to two networks - one external and one internal.
  The internal network is dedicated to communication within the system itself,
  so it should be used preferentially during runtime.
+ (There is a third, lower-speed network that is dedicated solely to communicatio
+n between the touchpanel and the projectors.)
 \end_layout
 
 \begin_layout Section
