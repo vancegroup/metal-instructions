@@ -334,7 +334,7 @@ status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Hardware/head-node.png
+	filename ../HardwareImages/head-node.png
 	width 90col%
 
 \end_inset
@@ -435,7 +435,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Hardware/render-node.png
+	filename ../HardwareImages/render-node.png
 	width 90col%
 
 \end_inset
@@ -652,7 +652,7 @@ status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Hardware/tracking-pc.png
+	filename ../HardwareImages/tracking-pc.png
 	width 90col%
 
 \end_inset
@@ -843,7 +843,7 @@ status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Hardware/art-tracked-glasses-transparent.png
+	filename ../HardwareImages/art-tracked-glasses-transparent.png
 	width 90col%
 
 \end_inset
@@ -931,7 +931,7 @@ status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Hardware/wiimote-wand-transparent.png
+	filename ../HardwareImages/wiimote-wand-transparent.png
 	width 90col%
 
 \end_inset
@@ -1010,7 +1010,7 @@ status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Hardware/claw-target-transparent.png
+	filename ../HardwareImages/claw-target-transparent.png
 	width 90col%
 
 \end_inset
@@ -1078,7 +1078,7 @@ status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Hardware/left-glove-5dtserial-transparent.png
+	filename ../HardwareImages/left-glove-5dtserial-transparent.png
 	width 90col%
 
 \end_inset
@@ -1241,7 +1241,7 @@ status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Hardware/quadro-plex.png
+	filename ../HardwareImages/quadro-plex.png
 	width 90col%
 
 \end_inset
