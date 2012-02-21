@@ -291,6 +291,111 @@ TODO
 
 \end_layout
 
+\begin_layout Chapter*
+Training
+\end_layout
+
+\begin_layout Standard
+These are the topics covered in the training session for METaL.
+ 
+\end_layout
+
+\begin_layout Itemize
+Hardware details (see above description)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Quadro FX 5800 cards
+\end_layout
+
+\begin_layout Itemize
+12x9x9 dimensions
+\end_layout
+
+\begin_layout Itemize
+ART tracking system
+\end_layout
+
+\begin_layout Itemize
+etc...
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Don't touch the reflective ART tracking balls.
+\end_layout
+
+\begin_layout Itemize
+When the tracking cameras show two red LEDs, the system is on.
+\end_layout
+
+\begin_layout Itemize
+Floor is similar to a kitchen-countertop so shoes are OK unlike the C6.
+\end_layout
+
+\begin_layout Itemize
+What to do if someone gets sick:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Stop and have the person sit down to assess how they are feeling.
+\end_layout
+
+\begin_layout Itemize
+Call facilities management (4-5100) for cleanup if necessary.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+How to reserve the system online.
+\end_layout
+
+\begin_layout Itemize
+Don't touch the Nvidia control panel settings.
+\end_layout
+
+\begin_layout Itemize
+JConfs are on Github.
+\end_layout
+
+\begin_layout Itemize
+Instructions for usage are on the desk.
+\end_layout
+
+\begin_layout Itemize
+Make sure to turn off/unpair the wiimote before putting it away.
+\end_layout
+
+\begin_layout Itemize
+Don't leave the glasses out because they are always 
+\begin_inset Quotes eld
+\end_inset
+
+on
+\begin_inset Quotes erd
+\end_inset
+
+ as long as they are connected in to an emitter.
+\end_layout
+
+\begin_layout Itemize
+Walk around back and show the computer rack setup as well as the cabinet
+ that holds the equipment.
+ Restart them if necessary but usually the system is quite stable.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Render and head nodes
+\end_layout
+
+\begin_layout Itemize
+Tracking computer
+\end_layout
+
+\end_deeper
 \begin_layout Chapter
 In Case Of...
 \end_layout
@@ -336,6 +441,10 @@ TODO - find number to call for cleanup.
 \end_inset
 
 
+\end_layout
+
+\begin_layout Itemize
+Call facilities management (4-5100) for cleanup.
 \end_layout
 
 \begin_layout Part
