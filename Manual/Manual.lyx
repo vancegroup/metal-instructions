@@ -346,11 +346,33 @@ simulator sickness
 \begin_inset Quotes erd
 \end_inset
 
- - a sort of motion sickness that sometimes happens in VR environments.
+ or 
+\begin_inset Quotes eld
+\end_inset
+
+cybersickness
+\begin_inset Quotes erd
+\end_inset
+
+ - a sort of motion sickness that sometimes happens in VR environments 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Cobb1999"
+
+\end_inset
+
+.
  It happens less often in CAVE environments (like METaL) than in head-mounted
- displays, but is still possible.
- Anecdotally, high-speed flying around in erratic patterns seems to be a
- trigger.
+ displays 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Sharples2008"
+
+\end_inset
+
+, but is still possible.
+ From anecdotal experience, high-speed flying around in erratic patterns
+ seems to be a trigger.
 \end_layout
 
 \begin_layout Section
@@ -433,7 +455,7 @@ Stop and have the person sit down to assess how they are feeling.
 \end_layout
 
 \begin_layout Itemize
-Call facilities management (4-5100) for cleanup if needed.
+Call ISU Facilities Management (4-5100) for cleanup if needed.
 \end_layout
 
 \begin_layout Itemize
@@ -1779,6 +1801,17 @@ status collapsed
 \begin_layout Plain Layout
 jmvance@iastate.edu
 \end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "vancegroup-METaLInstructions"
+options "bibtotoc,plain"
 
 \end_inset
 
