@@ -257,6 +257,31 @@ One gigabit Ethernet switch is dedicated to system control, tracking data,
 Troubleshooting
 \end_layout
 
+\begin_layout Standard
+If issues are encountered that cannot be resolved using the instructions
+ below, please file a help ticket by emailing 
+\begin_inset Flex Code
+status collapsed
+
+\begin_layout Plain Layout
+help@vrac.iastate.edu
+\end_layout
+
+\end_inset
+
+ and cc'ing 
+\begin_inset Flex Code
+status collapsed
+
+\begin_layout Plain Layout
+jmvance@iastate.edu
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
 \begin_layout Section
 Tracking Issues
 \end_layout
