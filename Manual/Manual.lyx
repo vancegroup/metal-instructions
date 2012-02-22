@@ -1613,7 +1613,18 @@ TODO
 Appendix
 \end_layout
 
-\begin_layout Chapter*
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "vancegroup-METaLInstructions"
+options "plain"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
 Training
 \end_layout
 
@@ -1813,17 +1824,6 @@ status collapsed
 \begin_layout Plain Layout
 jmvance@iastate.edu
 \end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset bibtex
-LatexCommand bibtex
-bibfiles "vancegroup-METaLInstructions"
-options "bibtotoc,plain"
 
 \end_inset
 
