@@ -1636,7 +1636,7 @@ These are the topics covered in the training session for METaL.
 \begin_layout Itemize
 Hardware details (see 
 \begin_inset CommandInset ref
-LatexCommand ref
+LatexCommand nameref
 reference "chap:Tech-Specs"
 
 \end_inset
@@ -1748,14 +1748,14 @@ JConf Visualizer on desktop can help you know what is defined.
 \begin_layout Itemize
 What to do if someone gets sick: see 
 \begin_inset CommandInset ref
-LatexCommand ref
+LatexCommand nameref
 reference "sec:Mild-moderate-VRISE"
 
 \end_inset
 
 , 
 \begin_inset CommandInset ref
-LatexCommand ref
+LatexCommand nameref
 reference "sec:Severe-VRISE"
 
 \end_inset
