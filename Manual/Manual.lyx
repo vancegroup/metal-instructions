@@ -86,6 +86,13 @@ User Manual
 
 \begin_layout Chapter
 Tech Specs
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:Tech-Specs"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Full Width
