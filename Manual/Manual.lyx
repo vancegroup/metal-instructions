@@ -298,113 +298,24 @@ TODO
 
 \end_layout
 
-\begin_layout Chapter*
-Training
+\begin_layout Chapter
+In Case Of...
 \end_layout
 
 \begin_layout Standard
-These are the topics covered in the training session for METaL.
- 
-\end_layout
-
-\begin_layout Itemize
-Hardware details (see above description)
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Quadro FX 5800 cards
-\end_layout
-
-\begin_layout Itemize
-12x9x9 dimensions
-\end_layout
-
-\begin_layout Itemize
-ART tracking system
-\end_layout
-
-\begin_layout Itemize
-etc...
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Don't touch the reflective ART tracking balls.
-\end_layout
-
-\begin_layout Itemize
-When the tracking cameras show two red LEDs, the system is on.
-\end_layout
-
-\begin_layout Itemize
-Floor is similar to a kitchen-countertop so shoes are OK unlike the C6.
-\end_layout
-
-\begin_layout Itemize
-What to do if someone gets sick:
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Stop and have the person sit down to assess how they are feeling.
-\end_layout
-
-\begin_layout Itemize
-Call facilities management (4-5100) for cleanup if necessary.
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-How to reserve the system online.
-\end_layout
-
-\begin_layout Itemize
-Don't touch the Nvidia control panel settings.
-\end_layout
-
-\begin_layout Itemize
-JConfs are on Github.
-\end_layout
-
-\begin_layout Itemize
-Instructions for usage are on the desk.
-\end_layout
-
-\begin_layout Itemize
-Make sure to turn off/unpair the wiimote before putting it away.
-\end_layout
-
-\begin_layout Itemize
-Don't leave the glasses out because they are always 
+Virtual reality-induced symptoms and effects (VRISE) is also known as 
 \begin_inset Quotes eld
 \end_inset
 
-on
+simulator sickness
 \begin_inset Quotes erd
 \end_inset
 
- as long as they are connected in to an emitter.
-\end_layout
-
-\begin_layout Itemize
-Walk around back and show the computer rack setup as well as the cabinet
- that holds the equipment.
- Restart them if necessary but usually the system is quite stable.
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Render and head nodes
-\end_layout
-
-\begin_layout Itemize
-Tracking computer
-\end_layout
-
-\end_deeper
-\begin_layout Chapter
-In Case Of...
+ - a sort of motion sickness that sometimes happens in VR environments.
+ It happens less often in CAVE environments (like METaL) than in head-mounted
+ displays, but is still possible.
+ Anecdotally, high-speed flying around in erratic patterns seems to be a
+ trigger.
 \end_layout
 
 \begin_layout Section
@@ -417,6 +328,13 @@ simulator sickness
 \end_inset
 
 )
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Mild-moderate-VRISE"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -432,18 +350,43 @@ TODO - wint-o-green lifesavers, water - cite?
 
 \end_layout
 
-\begin_layout Section
-Severe VRISE
+\begin_layout Itemize
+Stop and have the person sit down to assess how they are feeling.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+Wint-O-Green
+\begin_inset Quotes erd
+\end_inset
+
+ Lifesavers are in the cabinet - anecdotally the sugar and wintergreen seem
+ helpful.
+ Looking for a citation on this (wintergreen and blood sugar).
+\end_layout
+
+\begin_layout Itemize
+Drinking fountain is out the door, down the hallway toward the bathrooms.
+ 
 \begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
-TODO - find number to call for cleanup.
- Reporting?
+TODO map
 \end_layout
+
+\end_inset
+
+ Looking for a citation on dehydration and motion sickness.
+\end_layout
+
+\begin_layout Section
+Severe VRISE
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Severe-VRISE"
 
 \end_inset
 
@@ -451,7 +394,25 @@ TODO - find number to call for cleanup.
 \end_layout
 
 \begin_layout Itemize
-Call facilities management (4-5100) for cleanup.
+Stop and have the person sit down to assess how they are feeling.
+\end_layout
+
+\begin_layout Itemize
+Call facilities management (4-5100) for cleanup if needed.
+\end_layout
+
+\begin_layout Itemize
+You may wish to inform 
+\begin_inset Flex Code
+status collapsed
+
+\begin_layout Plain Layout
+jmvance@iastate.edu
+\end_layout
+
+\end_inset
+
+ with information on the situation, if possible.
 \end_layout
 
 \begin_layout Part
@@ -1575,6 +1536,213 @@ status open
 
 \begin_layout Plain Layout
 TODO
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Appendix
+\end_layout
+
+\begin_layout Chapter*
+Training
+\end_layout
+
+\begin_layout Standard
+These are the topics covered in the training session for METaL.
+ 
+\end_layout
+
+\begin_layout Itemize
+Hardware details (see 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "chap:Tech-Specs"
+
+\end_inset
+
+)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Tracking
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Don't touch the reflective ART tracking balls (
+\begin_inset Quotes eld
+\end_inset
+
+markers
+\begin_inset Quotes erd
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Itemize
+When the tracking cameras show two red LEDs, the system is on.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Floor is similar to a kitchen countertop so shoes are OK unlike the C6.
+ Wipe them off on the rugs, though.
+ 
+\end_layout
+
+\begin_layout Itemize
+Black metal stands on the desk are for the Wii Remote to protect the tracking
+ markers.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Putting items away
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Put equipment back in the proper labeled drawersMake sure to turn off/unpair
+ the Wii Remote before putting it away.
+ (press and hold the power button on the Wii Remote)
+\end_layout
+
+\begin_layout Itemize
+Don't leave the glasses out because they are always 
+\begin_inset Quotes eld
+\end_inset
+
+on
+\begin_inset Quotes erd
+\end_inset
+
+ as long as they are in range of an emitter.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Software:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+S
+\begin_inset Quotes erd
+\end_inset
+
+ drive is shared between both machines.
+ Hosted on render node for speed.
+ All users have full access so be polite.
+\end_layout
+
+\begin_layout Itemize
+Don't touch or even open the NVIDIA control panel settings.
+\end_layout
+
+\begin_layout Itemize
+JConfs are on Github, as well as on the shared 
+\begin_inset Quotes eld
+\end_inset
+
+S
+\begin_inset Quotes erd
+\end_inset
+
+ drive between the two machines.
+\end_layout
+
+\begin_layout Itemize
+JConf Visualizer on desktop can help you know what is defined.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+What to do if someone gets sick: see 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Mild-moderate-VRISE"
+
+\end_inset
+
+, 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Severe-VRISE"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Explain how to reserve the system online.
+\end_layout
+
+\begin_layout Itemize
+Instructions for usage are on the desk.
+\end_layout
+
+\begin_layout Itemize
+Walk around back and show the computer rack setup as well as the cabinet
+ that holds the equipment.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Render and head nodes
+\end_layout
+
+\begin_layout Itemize
+Tracking computer
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Restart them if necessary but usually the system is quite stable.
+\end_layout
+
+\begin_layout Itemize
+Please send in a help ticket and cc 
+\begin_inset Flex Code
+status collapsed
+
+\begin_layout Plain Layout
+jmvance@iastate.edu
+\end_layout
+
+\end_inset
+
+ if you have to do this
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+In case of problems, send in a help ticket to 
+\begin_inset Flex Code
+status collapsed
+
+\begin_layout Plain Layout
+help@vrac.iastate.edu
+\end_layout
+
+\end_inset
+
+ and cc 
+\begin_inset Flex Code
+status collapsed
+
+\begin_layout Plain Layout
+jmvance@iastate.edu
 \end_layout
 
 \end_inset
