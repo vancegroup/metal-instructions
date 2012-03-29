@@ -78,11 +78,56 @@ METaL User Manual and Technical Details
 
 \begin_layout Author
 ISU VRAC/HCI
-\begin_inset Note Note
-status open
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure*
+placement h
+wide false
+sideways false
+status collapsed
 
 \begin_layout Plain Layout
-INSERT a photo here
+\align center
+\begin_inset Graphics
+	filename ../photos/bobelbert/METaL-LabVance18.JPG
+	lyxscale 25
+	width 100line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Students Leif
+\begin_inset space ~
+\end_inset
+
+Berg, Meisha
+\begin_inset space ~
+\end_inset
+
+Rosenberg, and Ryan
+\begin_inset space ~
+\end_inset
+
+Pavlik work in METaL.
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Flex Emph
+status collapsed
+
+\begin_layout Plain Layout
+
+\size footnotesize
+Photo credit Bob Elbert.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
