@@ -185,13 +185,13 @@ status open
 status collapsed
 
 \begin_layout Plain Layout
-The METaL (Multimodal Experience Testbed and Laboratory) lab
+METaL (Multimodal Experience Testbed and Laboratory) is a human-scale immersive
+ environment
 \end_layout
 
 \end_inset
 
- is a human-scale immersive environment for development of natural interaction
- techniques in virtual reality.
+ for development of natural interaction techniques in virtual reality.
  This facility supports rapid development iteration and is comparable to
  virtual reality systems found in industry.
  Integration of haptic force-feedback with visual display, audio effects,
