@@ -300,7 +300,7 @@ End
 Float
 	Type                  figure*
 	GuiName               "Full-Width Figure"
-	Placement             tbp
+	Placement             htbp
 	Extension             lof
 	NumberWithin          none
 	Style                 plain
