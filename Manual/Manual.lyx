@@ -352,6 +352,35 @@ Tracking Issues
 \end_layout
 
 \begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+TODO.
+\end_layout
+
+\begin_layout Plain Layout
+Check to ensure tracker is on (two lights on each)
+\end_layout
+
+\begin_layout Plain Layout
+Check view to see if all cameras are seen.
+\end_layout
+
+\begin_layout Plain Layout
+stop and start tracking.
+\end_layout
+
+\begin_layout Plain Layout
+reboot tracker
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset Note Note
 status open
 
@@ -369,6 +398,36 @@ Input Issues
 \end_layout
 
 \begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+TODO.
+\end_layout
+
+\begin_layout Plain Layout
+Press 1+2 to sync the Wii Remote - lights should flash then only light 1
+ remains on.
+\end_layout
+
+\begin_layout Plain Layout
+Restart VRPN servers link in Troubleshooting.
+\end_layout
+
+\begin_layout Plain Layout
+unplug/replug bluetooth and restart vrpn servers?
+\end_layout
+
+\begin_layout Plain Layout
+Restart entire device machine link in troubleshooting.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset Note Note
 status open
 
@@ -383,6 +442,31 @@ TODO
 
 \begin_layout Section
 Graphics Issues
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+TODO.
+\end_layout
+
+\begin_layout Plain Layout
+Try app in simulator mode - still problem?
+\end_layout
+
+\begin_layout Plain Layout
+Reboot.
+\end_layout
+
+\begin_layout Plain Layout
+Email VRAC IT
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -793,6 +877,27 @@ status collapsed
 \end_inset
 
  on the internal network
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+TODO.
+\end_layout
+
+\begin_layout Plain Layout
+metal-devices.vrac.iastate.edu
+\end_layout
+
+\begin_layout Plain Layout
+see github repo and recent help ticket regarding transfer
 \end_layout
 
 \end_inset
@@ -1649,7 +1754,114 @@ http://www.nvidia.com/page/quadrofx_gsync.html
 \end_layout
 
 \begin_layout Chapter
+Display
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+TODO.
+\end_layout
+
+\begin_layout Plain Layout
+XPAN-D X-101
+\end_layout
+
+\begin_layout Plain Layout
+?? emitters
+\end_layout
+
+\begin_layout Plain Layout
+DPI TITAN projectors (from intro 
+\begin_inset Quotes eld
+\end_inset
+
+tech specs
+\begin_inset Quotes erd
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+TODO
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
 Input
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+TODO.
+\end_layout
+
+\begin_layout Plain Layout
+Most of this is in the jconf github readme
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+TODO
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Software
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+TODO.
+\end_layout
+
+\begin_layout Plain Layout
+NVidia Windows Quadro driver versions: 266.45 is good, as well as the 295
+ that's on there now
+\end_layout
+
+\begin_layout Plain Layout
+DTrack 2: upgraded from 2.5.0 to 2.6.2 to 2.7.2
+\end_layout
+
+\begin_layout Plain Layout
+VRPN servers - link to github
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
