@@ -282,6 +282,36 @@ Float
 	UsesFloatPkg false
 End
 
+Float
+	Type                  table*
+	GuiName               "Full-Width Table"
+	Placement             tbp
+	Extension             lot
+	NumberWithin          none
+	Style                 plain
+	ListName              "List of Tables"
+	IsPredefined          true
+	UsesFloatPkg          false
+	ListCommand           listoftables
+	RefPrefix             tab
+End
+
+
+Float
+	Type                  figure*
+	GuiName               "Full-Width Figure"
+	Placement             tbp
+	Extension             lof
+	NumberWithin          none
+	Style                 plain
+	ListName              "List of Figures"
+	IsPredefined          true
+	UsesFloatPkg          false
+	ListCommand           listoffigures
+	RefPrefix             fig
+End
+
+
 Style Bibliography
 	TopSep                4
 	LabelString           "Bibliography"
