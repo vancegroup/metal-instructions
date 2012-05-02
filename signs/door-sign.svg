@@ -14,7 +14,7 @@
    height="612pt"
    id="svg9441"
    version="1.1"
-   inkscape:version="0.48.1 r9760"
+   inkscape:version="0.48.2 r9819"
    sodipodi:docname="door-sign.svg">
   <defs
      id="defs9443">
@@ -46,15 +46,15 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.61399264"
-     inkscape:cx="576.74278"
-     inkscape:cy="311.51575"
-     inkscape:current-layer="layer1"
+     inkscape:zoom="0.86831672"
+     inkscape:cx="635.96579"
+     inkscape:cy="243.14481"
+     inkscape:current-layer="g9601"
      id="namedview9445"
      showgrid="false"
-     inkscape:window-width="1280"
-     inkscape:window-height="973"
-     inkscape:window-x="1280"
+     inkscape:window-width="1600"
+     inkscape:window-height="1149"
+     inkscape:window-x="1600"
      inkscape:window-y="24"
      inkscape:window-maximized="1" />
   <metadata
@@ -65,7 +65,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -146,53 +146,57 @@
          id="flowPara9579" /></flowRoot>    <g
        id="g9601"
        transform="translate(0,58.908153)">
-      <text
-         xml:space="preserve"
-         style="font-size:50.44377518px;font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;font-family:Delicious;-inkscape-font-specification:Delicious Medium Italic"
-         x="491.72147"
-         y="423.22266"
-         id="text9559"
-         sodipodi:linespacing="125%"><tspan
-           id="tspan9563"
-           sodipodi:role="line"
-           x="491.72147"
-           y="423.22266"
-           style="font-size:50.44377518px;font-style:normal;font-weight:500;text-align:center;text-anchor:middle;-inkscape-font-specification:Delicious Medium">Judy M. Vance, Ph.D.</tspan></text>
-      <text
-         sodipodi:linespacing="125%"
-         id="text9581"
-         y="458.67239"
-         x="490.43716"
-         style="font-size:20.36087227px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Delicious;-inkscape-font-specification:Delicious Medium"
-         xml:space="preserve"><tspan
-           y="458.67239"
-           x="490.43716"
-           id="tspan9583"
-           sodipodi:role="line">Joseph C. and Elizabeth A. Anderlik Professor of Engineering</tspan><tspan
-           id="tspan9585"
-           y="484.12347"
-           x="490.43716"
-           sodipodi:role="line">Professor of Mechanical Engineering</tspan><tspan
-           id="tspan9587"
-           y="509.57458"
-           x="490.43716"
-           sodipodi:role="line">Virtual Reality Applications Center</tspan><tspan
-           id="tspan9599"
-           y="535.0257"
-           x="490.43716"
-           sodipodi:role="line">Iowa State University</tspan></text>
-      <text
-         sodipodi:linespacing="125%"
-         id="text9589"
-         y="569.46436"
-         x="492.05414"
-         style="font-size:32.7240181px;font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;font-family:Delicious;-inkscape-font-specification:Delicious Medium Italic"
-         xml:space="preserve"><tspan
-           style="font-size:22.55529213px;font-style:italic;font-weight:500;text-align:center;text-anchor:middle;-inkscape-font-specification:Delicious Medium Italic"
-           y="569.46436"
-           x="492.05414"
-           sodipodi:role="line"
-           id="tspan9593">jmvance@iastate.edu</tspan></text>
+      <g
+         id="g3015"
+         transform="translate(24.43026,-31.293787)">
+        <text
+           sodipodi:linespacing="125%"
+           id="text9559"
+           y="455.7381"
+           x="249.84991"
+           style="font-size:36.27899933px;font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;font-family:Delicious;-inkscape-font-specification:Delicious Medium Italic"
+           xml:space="preserve"><tspan
+             style="font-size:36.27899933px;font-style:normal;font-weight:500;text-align:center;text-anchor:middle;-inkscape-font-specification:Delicious Medium"
+             y="455.7381"
+             x="249.84991"
+             sodipodi:role="line"
+             id="tspan9563">Judy M. Vance, Ph.D.</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:14.64347267px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Delicious;-inkscape-font-specification:Delicious Medium"
+           x="248.92624"
+           y="481.23343"
+           id="text9581"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan9583"
+             x="248.92624"
+             y="481.23343">Joseph C. and Elizabeth A. Anderlik Professor of Engineering</tspan><tspan
+             sodipodi:role="line"
+             x="248.92624"
+             y="499.53778"
+             id="tspan9585">Professor of Mechanical Engineering</tspan><tspan
+             sodipodi:role="line"
+             x="248.92624"
+             y="517.8421"
+             id="tspan9587">Virtual Reality Applications Center</tspan><tspan
+             sodipodi:role="line"
+             x="248.92624"
+             y="536.14642"
+             id="tspan9599">Iowa State University</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:23.53500748px;font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;font-family:Delicious;-inkscape-font-specification:Delicious Medium Italic"
+           x="250.08917"
+           y="560.91461"
+           id="text9589"
+           sodipodi:linespacing="125%"><tspan
+             id="tspan9593"
+             sodipodi:role="line"
+             x="250.08917"
+             y="560.91461"
+             style="font-size:16.22169304px;font-style:italic;font-weight:500;text-align:center;text-anchor:middle;-inkscape-font-specification:Delicious Medium Italic">jmvance@iastate.edu</tspan></text>
+      </g>
       <text
          xml:space="preserve"
          style="font-size:32.7240181px;font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;text-align:end;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;font-family:Delicious;-inkscape-font-specification:Delicious Medium Italic"
@@ -204,37 +208,42 @@
            sodipodi:role="line"
            x="492.05414"
            y="595.02106"
-           style="font-size:22.55529213px;font-style:italic;font-weight:500;text-align:center;text-anchor:middle;-inkscape-font-specification:Delicious Medium Italic">http://www.vrac.iastate.edu/~jmvance/</tspan></text>
+           style="font-size:22.55529213px;font-style:italic;font-weight:500;text-align:center;text-anchor:middle;-inkscape-font-specification:Delicious Medium Italic">http://www.vrac.iastate.edu/METaL/</tspan></text>
+      <path
+         inkscape:connector-curvature="0"
+         id="path3209"
+         d="m 860.07522,552.67232 -0.009,-2.43273 -0.92635,-0.009 -0.92634,-0.009 0,-0.43229 0,-0.43232 2.3375,0 2.33751,0 0,0.43287 0,0.43288 -0.93501,0 -0.935,0 0,2.44138 0,2.44141 -0.46726,0 -0.46727,0 -0.009,-2.43275 z m 3.47138,-0.44152 0,-2.87427 0.70713,0 0.70713,0 0.053,0.16449 c 0.0292,0.0905 0.33509,1.06054 0.67979,2.1557 0.3447,1.09516 0.64352,2.04418 0.66403,2.10893 0.0264,0.0833 0.045,0.10353 0.0636,0.0693 0.0144,-0.0267 0.27062,-0.851 0.56927,-1.83188 0.29865,-0.9809 0.60497,-1.98212 0.68074,-2.22496 l 0.13772,-0.44153 0.69111,0 0.6911,0 0,2.87427 0,2.87426 -0.43262,0 -0.43264,0 -0.009,-2.38079 -0.009,-2.38079 -0.73049,2.37214 -0.7305,2.37211 -0.44475,0 -0.44476,0 -0.75255,-2.38377 c -0.41392,-1.31108 -0.76162,-2.39281 -0.77269,-2.40388 -0.011,-0.0111 -0.0201,1.06554 -0.0201,2.39245 l 0,2.41253 -0.43287,0 -0.43288,0 0,-2.87426 z m -163.27738,-7.58219 c -6.02459,-7.18308 -8.45273,-10.10161 -8.43043,-10.13306 0.0172,-0.0243 4.69852,-4.02935 10.40289,-8.90008 5.70437,-4.87076 10.37157,-8.86714 10.37157,-8.88085 0,-0.0137 -1.16654,-1.24059 -2.59232,-2.72638 l -2.59232,-2.70146 -0.31656,0.14853 c -0.17411,0.0817 -5.62269,2.66078 -12.10796,5.73131 -6.48527,3.07053 -11.82257,5.58819 -11.86067,5.59477 -0.0538,0.009 -1.32112,-1.33733 -5.67926,-6.03468 -3.08549,-3.32567 -5.61,-6.06062 -5.61,-6.07768 0,-0.0171 15.81661,-7.40216 35.14799,-16.41133 19.33142,-9.00917 35.15276,-16.38507 35.15859,-16.3909 0.006,-0.006 -3.57471,-16.81477 -7.9567,-37.35322 -4.382,-20.53847 -7.97044,-37.36947 -7.97429,-37.40226 -0.005,-0.0442 1.95188,-1.30354 7.57635,-4.87517 6.22572,-3.95345 7.58719,-4.80485 7.60466,-4.75565 0.0117,0.033 2.64552,16.73925 5.85292,37.12507 3.20741,20.38583 5.83613,37.01326 5.84159,36.94983 0.006,-0.0634 -0.77032,-17.63877 -1.72398,-39.05634 -0.95364,-21.41758 -1.72949,-39.01697 -1.72409,-39.10975 l 0.01,-0.16872 10.11187,-6.14474 c 5.56152,-3.3796 10.13074,-6.15298 10.15381,-6.16306 0.0231,-0.01 8.97572,5.98542 19.89475,13.3233 10.91901,7.33789 19.85835,13.3458 19.86516,13.3509 0.007,0.005 -2.86341,16.04937 -6.37829,35.65389 -3.51488,19.60454 -6.39559,35.68088 -6.40157,35.72522 -0.0102,0.0759 2.10026,1.02842 36.1235,16.30314 19.87392,8.92239 36.14041,16.22853 36.14773,16.23585 0.0157,0.0157 -33.17647,46.55965 -33.20403,46.5605 -0.0104,0 -15.20408,-13.5253 -33.76391,-30.05694 -18.55981,-16.53164 -33.75387,-30.05797 -33.76457,-30.05853 -0.0141,0 -51.6438,52.54979 -58.87017,59.92012 l -0.85031,0.86725 -8.46175,-10.08888 z m 134.39626,-8.57036 c 4.54334,-0.48095 8.39059,-2.39514 11.77765,-5.85991 2.46469,-2.52126 4.90342,-6.31151 6.21307,-9.65636 0.76338,-1.94967 1.17653,-3.78036 1.26035,-5.58469 0.18085,-3.89342 -1.28856,-7.32753 -4.37283,-10.21967 -0.76456,-0.71694 -1.40066,-1.22833 -2.48082,-1.99447 -0.3714,-0.26342 -0.84671,-0.60798 -1.05621,-0.7657 -0.61062,-0.45965 -1.51258,-0.956 -3.85171,-2.11958 -2.93019,-1.45759 -7.71283,-3.70276 -13.30565,-6.24619 -1.75507,-0.79815 -2.20581,-0.99051 -2.23936,-0.95561 -0.18851,0.19596 -8.84057,10.78643 -8.83254,10.81139 0.0183,0.0569 17.79037,10.75176 18.15769,10.92692 1.40632,0.67061 1.85137,1.55911 1.30433,2.60396 -0.14705,0.28083 -0.43368,0.60473 -0.66855,0.75545 -0.74257,0.47651 -1.76908,0.25593 -2.95582,-0.63516 -0.17392,-0.13059 -8.84058,-5.6918 -19.25925,-12.35822 -10.4187,-6.66643 -19.00221,-12.17735 -19.0745,-12.24647 -0.19658,-0.18795 -0.33624,-0.49151 -0.3353,-0.72874 0.002,-0.23456 0.0781,-0.41394 0.27171,-0.6319 0.46581,-0.52425 1.08799,-0.51907 1.73605,0.0144 0.1841,0.15155 9.89965,6.18496 10.05654,6.24515 0.0374,0.0144 5.19702,-5.22777 9.46563,-9.61707 l 0.22265,-0.22894 -0.23672,-0.13193 c -0.40238,-0.22429 -5.98728,-3.01691 -7.2319,-3.61619 -3.89591,-1.87583 -6.14183,-2.83178 -6.87461,-2.92611 -0.1044,-0.0134 -0.59608,-0.0923 -1.09261,-0.17522 -1.75869,-0.29374 -2.66352,-0.39019 -3.94536,-0.42053 -4.50576,-0.10664 -8.35843,1.28568 -11.62317,4.20053 -0.52791,0.47135 -1.53374,1.50079 -1.9175,1.96253 -1.72288,2.07301 -2.68765,4.08955 -3.03504,6.3437 -0.0896,0.58168 -0.12393,1.84467 -0.0669,2.46461 0.13784,1.49866 0.5469,2.90222 1.26196,4.32996 0.62653,1.25098 1.27947,2.18453 1.97826,2.82841 3.10872,2.86452 20.11107,16.56205 31.32322,25.23481 5.25988,4.06858 8.14743,6.19774 8.96909,6.61342 0.81405,0.41182 2.2268,0.90772 3.48835,1.22446 1.30247,0.327 2.46084,0.50249 4.11287,0.62307 0.41135,0.03 2.38621,-0.0142 2.85694,-0.0641 z M 730.5745,503.02207 c 5.54658,-4.54255 10.12458,-8.29419 10.17332,-8.337 0.11193,-0.0983 1.04436,-0.54912 -12.67472,6.12789 -6.4294,3.12916 -11.69411,5.70497 -11.69937,5.72401 -0.0112,0.0408 4.0541,4.76295 4.09096,4.75185 0.0137,-0.004 4.56322,-3.7242 10.10981,-8.26675 z m 45.55598,-17.57065 5.33939,-3.4538 0.0208,-0.17968 c 0.0114,-0.0988 0.54975,-6.29449 1.19618,-13.76816 0.64643,-7.47365 1.18469,-13.59784 1.19615,-13.60929 0.0367,-0.0368 0.64763,0.30309 0.95993,0.53401 0.84304,0.62338 1.61095,1.571 2.14682,2.64925 0.40264,0.81014 0.64791,1.71988 0.77463,2.87311 0.0724,0.6587 0.0817,2.37079 0.017,3.11667 -0.0473,0.54507 -0.17107,1.61058 -0.1976,1.70097 -0.0191,0.065 -1.33294,13.64967 -1.32116,13.65992 0.004,0.004 1.79218,-1.20804 3.97298,-2.69287 2.18079,-1.48484 3.98511,-2.71117 4.00955,-2.7252 0.0493,-0.0283 0.18072,-0.73644 0.57922,-3.12077 0.87752,-5.25057 1.4341,-9.56117 1.64992,-12.77836 0.0594,-0.88512 0.0594,-2.89013 0,-3.37639 -0.33505,-2.74603 -1.41295,-5.08544 -3.18666,-6.91618 -0.95195,-0.98254 -1.9041,-1.69128 -3.04267,-2.26482 -0.48055,-0.24207 -0.48968,-0.24874 -0.37108,-0.27099 0.18794,-0.0353 0.96503,-0.28922 1.33314,-0.43569 1.95416,-0.77757 3.98221,-2.23449 5.59501,-4.01935 3.25727,-3.60476 5.39726,-8.70409 6.36395,-15.16455 0.36456,-2.43631 0.49106,-4.2228 0.46106,-6.51039 -0.029,-2.20783 -0.19335,-3.79173 -0.59633,-5.74636 -0.86542,-4.19756 -2.75546,-7.96593 -5.3304,-10.62779 -0.82265,-0.85041 -0.34448,-0.52025 -12.2558,-8.46236 -6.11087,-4.07463 -11.11669,-7.40246 -11.12396,-7.39519 -0.0147,0.0147 -3.68534,101.89881 -3.68534,102.29119 l 0,0.24668 0.0779,-0.0499 c 0.0429,-0.0274 2.48066,-1.60412 5.41732,-3.50369 z m 8.83599,-46.48546 c 0.007,-0.12862 0.39637,-6.95805 0.86632,-15.17653 0.85173,-14.89503 0.85469,-14.94273 0.92797,-14.95326 0.12499,-0.018 0.62041,0.19622 0.93836,0.40569 2.71616,1.78942 3.98441,7.35355 3.50534,15.37868 -0.37484,6.27908 -1.5251,10.64096 -3.41639,12.95512 -0.28713,0.35134 -0.81242,0.8458 -1.10908,1.04401 -0.50999,0.34073 -1.14822,0.57985 -1.54811,0.58004 l -0.17627,0 0.0119,-0.23384 z"
+         style="fill:#000000" />
       <image
-         y="611.82159"
-         x="452.84207"
-         id="image3027"
-         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOYAAADmCAIAAABOCG7sAAAAA3NCSVQICAjb4U/gAAAEoklEQVR4
-nO3dwW7cNhRA0bro//+yu8gmgIxAlUk+3fqcfWYmyQUBUdTTx+fn51/Q8ff0D4D/RrLESJYYyRIj
-WWIkS4xkiZEsMZIlRrLESJYYyRIjWWIkS4xkiZEsMZIlRrLESJYYyRIjWWIkS4xkiZEsMZIlRrLE
-SJaYf3Z86MfHx46Pvek6ZezO73k2m+z6yatmnD37N3z2d99nx8Q3qywxkiVGssRIlhjJErNlx+Bq
-36zwfbsB+8zuBsz+X3yfVZYYyRIjWWIkS4xkiTm0Y3B18mr32UmAZ7/wznc9+/Z91+Nv23n4M6ss
-MZIlRrLESJYYyRIztmMw69kewr79imcnJWafOJhilSVGssRIlhjJEiNZYn7ojsHVqhMFz/7Us1MH
-b3va4gyrLDGSJUayxEiWGMkSM7ZjcPJq987d+VXX7G97AuKO1s6DVZYYyRIjWWIkS4xkiTm0YzB7
-fn7flf7s7zl5LuI9rLLESJYYyRIjWWIkS8xH6/7yKrPX7CfPPPz/WGWJkSwxkiVGssRIlpgtOwar
-7mLPPilwx+zEwtlnIqbOaVhliZEsMZIlRrLESJaYQ08l7Huf4KqzAbMTAJ7tKpw8BfEeVlliJEuM
-ZImRLDGSJebQUwmzd9XfNqPgzp+6OnmiYNX7H3ewyhIjWWIkS4xkiZEsMWM7Bu+/G75vQuDJJwXu
-fHJrroJVlhjJEiNZYiRLjGSJGXu74tWzq8tVexF3vr14MmGVO7/QGQP4gmSJkSwxkiVGssRs2TE4
-+da/VVf6q37zvjmHJ+/773u64fusssRIlhjJEiNZYiRLzJYdg5P3x09eR5+cmbBq8uGq73oPqywx
-kiVGssRIlhjJEvOiOQYnv/2OVU83nJxPeMe+fQZPJcAXJEuMZImRLDGSJWbs7Yon74/PXhHvewPj
-1ZsnFq5ilSVGssRIlhjJEiNZYl40+XDVmf/ZiQQn3+24b0bBne+aYpUlRrLESJYYyRIjWWK2PJVw
-8hp5lX1vWJj919i36zJ1DsEqS4xkiZEsMZIlRrLEHJpj8MUXB69bZ9+BuOo0RWtqwZVVlhjJEiNZ
-YiRLjGSJedHkw1V3zO/Yd6W/73r8Pc8F/GLHAG6RLDGSJUayxEiWmLEzBifNTkg4+Tlvm1Gwoy6r
-LDGSJUayxEiWGMkSs2Xy4ezd8OtV6uz+wLM/df32fRMd7zg50fHPrLLESJYYyRIjWWIkS8zY2xVX
-ad0f/84nn5zz8OZZB1ZZYiRLjGSJkSwxkiVm7O2KJ+/g37HvyYWT71NYtX/ytpmTv7PKEiNZYiRL
-jGSJkSwxYzsGJz270p+9+p6du/iMMwbwBckSI1liJEuMZIn5ETsGq+w7UXBy8sPsOyK/zypLjGSJ
-kSwxkiVGssSM7RjMvqNh1fXvsz2EVc8p3Plb7JuXaPIh3CJZYiRLjGSJkSwxh3YM3nOH+peTk/3e
-NqOg/j5NqywxkiVGssRIlhjJEvNRv37kp7HKEiNZYiRLjGSJkSwxkiVGssRIlhjJEiNZYiRLjGSJ
-kSwxkiVGssRIlhjJEiNZYiRLjGSJkSwxkiVGssRIlhjJEiNZYiRLzL+q+ynz+xB8vgAAAABJRU5E
-rkJggg==
+         y="595.12262"
+         x="450.46185"
+         id="image3302"
+         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOYAAADmCAIAAABOCG7sAAAAA3NCSVQICAjb4U/gAAAEr0lEQVR4
+nO3dW27bOABA0fGg+99yugC7AMPwoYuc853KTnNBQBRFvr6+vv6Djv9vfwH4HskSI1liJEuMZImR
+LDGSJUayxEiWGMkSI1liJEuMZImRLDGSJUayxEiWGMkSI1liJEuMZImRLDGSJUayxEiWGMkSI1li
+/uy46Ov12nHZQXO7jL1/5/frrPq9Rr7h3Gft+85zduz4ZpQlRrLESJYYyRIjWWK2zBi827dX+Mgd
+8chswIhV9+Mj32ff/9jdv8XPGWWJkSwxkiVGssRIlphDMwbvVj1DX/WvVj33H5lVWHXPvurKJ/8W
+P2eUJUayxEiWGMkSI1lirs0YnLTvjnjfqoO57/MbGGWJkSwxkiVGssRIlphfMWOw6rn/qjmEfbMK
+v4FRlhjJEiNZYiRLjGSJuTZjcPKJ+d3n/nPvO+zbHfFda/WCUZYYyRIjWWIkS4xkiTk0Y/C05+Nz
+qw5W7bK46mfmPO1v8V1GWWIkS4xkiZEsMZIlZsuMwdOeWe+7979r1QqHFqMsMZIlRrLESJYYyRLz
+2nFHue8p9qqdBueufPJcwlWnHuxb4XBrRsUoS4xkiZEsMZIlRrLEXJsx2HcHuu/TT+4bsOp8h5Mn
+J56ZQzDKEiNZYiRLjGSJkSwx+bcS7t7pr9pT8f3KT75n/xdrDOADyRIjWWIkS4xkiTm0xmDuXvtp
+d82rvvPJ1RRzTv4W32WUJUayxEiWGMkSI1lirp2VMDKHsG9F/b6TE+fWD6y6+151p79vPufnjLLE
+SJYYyRIjWWIkS8yWNQYfPuZhqw5WXXmfu2cgPnkvRKMsMZIlRrLESJYYyRKzZY3B056Yj1z55HqG
+VaciPm0mxFsJ8IFkiZEsMZIlRrLEHFpjMGfuXnvfKQNPO+Pg7j4P9jGAIZIlRrLESJYYyRJz7a2E
+EXdXAsxdZ86q2YmnfcMdjLLESJYYyRIjWWIkS8y1txLuvhd/cv3AiFWfPjfvser3so8BfCBZYiRL
+jGSJkSwxh85KmLNvjcGqfRVO7k+46s2FVbtQjnzWDkZZYiRLjGSJkSwxkiVmy1sJd9+Uv3sffesE
+gX952o6OP2eUJUayxEiWGMkSI1lirq0xmLuTfdqz71VP5+++TTBi7p0IbyWAZKmRLDGSJUayxDz6
+rIRVnjbPcPc0h1XfZ4QZA5AsNZIlRrLESJaYQzsfnjRylzpy973q9IR9+0CO2Pfc31kJMESyxEiW
+GMkSI1liDr2VcPd5/ao5hH0nGpx8b2LVdW6dR2mUJUayxEiWGMkSI1liYvsYnNxBcc6+3QZWrYuY
+c2t+4J1RlhjJEiNZYiRLjGSJefTpined3Gnw5M4G+37GzofwgWSJkSwxkiVGssT80hmDuSfmJ9cP
+jJh7A2Lfz1hjAB9IlhjJEiNZYiRLzLUZg7tnNOy7Q797BuKq3Qb27cT4c0ZZYiRLjGSJkSwxkiXm
+0IzB3dMT9jm5H+DJ8xTmPv0MoywxkiVGssRIlhjJEvO6+6wfvssoS4xkiZEsMZIlRrLESJYYyRIj
+WWIkS4xkiZEsMZIlRrLESJYYyRIjWWIkS4xkiZEsMZIlRrLESJYYyRIjWWIkS4xkiZEsMX8BN5s4
+0rGsWAMAAAAASUVORK5CYII=
 "
-         height="84.315834"
-         width="84.315834" />
+         height="88.346619"
+         width="88.346619" />
     </g>
     <text
        sodipodi:linespacing="125%"
