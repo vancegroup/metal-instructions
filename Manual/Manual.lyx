@@ -1196,8 +1196,9 @@ status collapsed
 \end_layout
 
 \begin_layout Standard
-The TCP/IP protocol used to interact with the controller is allegedly available,
- however, the documentation we have doesn't include that information.
+The TCP/IP protocol used to interact with the controller is available, and
+ best documented through the DTrack SDK included with recent DTrack software
+ versions.
 \end_layout
 
 \begin_layout Section
