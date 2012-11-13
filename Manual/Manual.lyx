@@ -1861,6 +1861,14 @@ TODO.
 Most of this is in the jconf github readme
 \end_layout
 
+\begin_layout Plain Layout
+Proper shutdown/charging of wiimotes.
+\end_layout
+
+\begin_layout Plain Layout
+Use of troubleshooter scripts.
+\end_layout
+
 \end_inset
 
 
