@@ -1930,6 +1930,109 @@ TODO
 
 \end_layout
 
+\begin_layout Chapter
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:Scheduling"
+
+\end_inset
+
+Being Good Neighbors: Scheduling
+\end_layout
+
+\begin_layout Standard
+METaL uses a self-service booking system based on the Meeting Room Booking
+ System (MRBS)
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://mrbs.sourceforge.net/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
+ (The web app is currently hosted by Ryan Pavlik on his personal web server,
+ on the behalf of the Vance research group.) It is for courtesy to others
+ sharing the lab space in 1121 Black, as well as for courtesy to others
+ who may want to use METaL.
+ 
+\end_layout
+
+\begin_layout Section
+Making Reservations
+\end_layout
+
+\begin_layout Standard
+Access to create reservations is through the VRAC intranet wiki.
+ On the wiki, clicking Facilities (on the left), then METaL will show you
+ a page that includes information on how to make reservations.
+ The direct link to this page is 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+https://intranet.vrac.iastate.edu/twiki/bin/view/TheLab/FacilityMETaL
+\end_layout
+
+\end_inset
+
+.
+ When creating a reservation, please include your name/contact information
+ in case someone wishes to reach you about your scheduled time.
+\end_layout
+
+\begin_layout Section
+Viewing Reservations
+\end_layout
+
+\begin_layout Standard
+The display board in METaL regularly shows the current week's reservation
+ calendar directly from this system.
+ The page it shows, which you can also access, is this one: 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://academic.cleardefinition.com/reservations/mrbs/web/week.php?area=2&room=2
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The registration calendar is available as an iCal/webcal feed.
+ If you'd like to add it to your Google Calendar, iCal, or Outlook (or other
+ iCal-capable tool), see the following web page for the URLs and instructions:
+ 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://academic.cleardefinition.com/reservations/mrbs/web/ical_subscribe.php
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
 \begin_layout Part
 Appendix
 \end_layout
