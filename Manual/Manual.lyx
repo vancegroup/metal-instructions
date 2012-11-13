@@ -220,6 +220,36 @@ http://vrac.iastate.edu/METaL/
 \end_layout
 
 \begin_layout Standard
+The latest version of this User Manual, in PDF format, is available from
+ the Vance Group public documentation page: 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.vrac.iastate.edu/vancegroup/docs/
+\end_layout
+
+\end_inset
+
+ This is maintained collaboratively: it is composed/edited with LyX with
+ source maintained on GitHub: 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+https://github.com/vancegroup/metal-instructions
+\end_layout
+
+\end_inset
+
+.
+ The public PDF is updated every time changes are pushed to the GitHub repositor
+y, so it's always up-to-date.
+\end_layout
+
+\begin_layout Standard
 \begin_inset Note Note
 status open
 
