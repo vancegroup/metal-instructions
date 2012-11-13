@@ -2078,12 +2078,13 @@ options "plain"
 \end_layout
 
 \begin_layout Chapter
-Training
+Training Checklist
 \end_layout
 
 \begin_layout Standard
 These are the topics covered in the training session for METaL.
- 
+ See the rest of the manual for actual information on these points.
+ (In some cases, the information is here only: please help by fixing that!)
 \end_layout
 
 \begin_layout Itemize
