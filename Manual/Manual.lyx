@@ -1377,7 +1377,8 @@ tree target
  We have put a threaded post on the end of a Nintendo Wii Remote and screwed
  the tree target on to serve as our wand in the space.
  The Wii Remote is used for buttons only (not using accelerometer or IR
- data), while it is accurately tracked by the optical tracker.
+ data -- they'd be redundant with the tracking information we get from the
+ DTrack system), while it is accurately tracked by the optical tracker.
  
 \begin_inset Note Note
 status open
