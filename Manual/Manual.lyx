@@ -441,11 +441,8 @@ Press 1+2 to sync the Wii Remote - lights should flash then only light 1
 \end_layout
 
 \begin_layout Plain Layout
-Restart VRPN servers link in Troubleshooting.
-\end_layout
-
-\begin_layout Plain Layout
-unplug/replug bluetooth and restart vrpn servers?
+Restart VRPN servers link in Troubleshooting, then after startup chimes,
+ re-sync wii remote.
 \end_layout
 
 \begin_layout Plain Layout
