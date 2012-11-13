@@ -2058,6 +2058,19 @@ These are the topics covered in the training session for METaL.
 \end_layout
 
 \begin_layout Itemize
+Explain how to reserve the system online - required for demos, not required
+ for just testing, though it's suggested.
+ (See 
+\begin_inset CommandInset ref
+LatexCommand nameref
+reference "chap:Scheduling"
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Itemize
 Hardware details (see 
 \begin_inset CommandInset ref
 LatexCommand nameref
@@ -2189,10 +2202,6 @@ reference "sec:Severe-VRISE"
 \end_inset
 
 
-\end_layout
-
-\begin_layout Itemize
-Explain how to reserve the system online.
 \end_layout
 
 \begin_layout Itemize
