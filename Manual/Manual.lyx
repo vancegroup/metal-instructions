@@ -85,7 +85,7 @@ ISU VRAC/HCI
 placement h
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \align center
@@ -882,6 +882,35 @@ status collapsed
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+This computer, hiding behind the left-most monitor, serves two purposes.
+ First, it serves device data via VRPN servers that are constantly running.
+ This includes managing connections, over Bluetooth, to the Wii Remotes.
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+The VRPN system's build and configuration is developed at 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+https://github.com/vancegroup/metal-devices-server
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ In addition, it also powers the display board (the LCD on the top shelf
+ of the left desk), which cycles through a number of slides including a
+ live look at the schedule.
 \end_layout
 
 \begin_layout Standard
