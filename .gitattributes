@@ -1,0 +1,2 @@
+# LyX files use windows line endings on windows, so must override "don't mess with my line endings"
+*.lyx text
