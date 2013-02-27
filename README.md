@@ -3,14 +3,12 @@ This repo contains a number of instructional materials related to the [METaL][] 
 
 [METaL]:http://vrac.iastate.edu/METaL/
 
-##Important Note about Line Endings
+## METaL User's Guide
+This repo is notable for containing the [LyX][] file (in `Manual`) that produces the user manual for the system.  Every change here will trigger an automatic rebuild by our Jenkins server and upload of a new PDF to <http://www.vrac.iastate.edu/vancegroup/docs/>.
 
-This repo standardizes on unix line endings upstream. However, LyX (used for the user manual) on Windows will save with Windows line endings. To solve this problem, please run this command to set a setting for this repo only:
+[LyX]:http://lyx.org
 
-```
-git config core.autocrlf true
-```
+## Related Repos
+The [metal-jconf][] repo contains substantial documentation in its readme file, which could/should probably be moved in the manual.
 
-You will probably then need to do a `git reset --hard` to re-set all the trees (particularly working tree and index) to have the right line endings, so **be sure to do this immediately after cloning**.
-
-For more information, you can see [this article on help.github](http://help.github.com/line-endings/) though note that we modified the commands so that they do not change the global configuration.
+[metal-jconf]:https://github.com/vancegroup/metal-jconf
