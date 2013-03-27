@@ -354,7 +354,7 @@ Troubleshooting
 
 \begin_layout Standard
 If issues are encountered that cannot be resolved using the instructions
- below, please file a help ticket by emailing 
+ below, please file a help ticket with VRAC IT by emailing 
 \begin_inset Flex Code
 status collapsed
 
@@ -471,24 +471,175 @@ TODO
 Graphics Issues
 \end_layout
 
+\begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Stereo-Issues"
+
+\end_inset
+
+Stereo Issues: double image, flickering, awkward-feeling or unrealistic
+ stereo
+\end_layout
+
+\begin_layout Enumerate
+First try a different pair of glasses (or two).
+ If another pair works, the batteries were probably dead - see 
+\begin_inset CommandInset ref
+LatexCommand nameref
+reference "sub:XPAN-D-X-101"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+The next step is to reboot - rebooting the render node is typically sufficient,
+ but there is no harm in following the full procedure.
+\end_layout
+
+\begin_layout Enumerate
+If this doesn't work, you'll need to contact VRAC IT.
+ It can be helpful to include the results of 
+\begin_inset CommandInset ref
+LatexCommand nameref
+reference "sub:TestPattern"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Other graphics issues: No stereo, display not correctly immersive (full-wall),
+ etc.
+\end_layout
+
+\begin_layout Enumerate
+If you are using an application based on VR
+\begin_inset space ~
+\end_inset
+
+Juggler, make sure that you are using an appropriate jconf file for the
+ scenario you want.
+ There are both stereo and mono jconf files - mono ones are primarily used
+ for photos and video.
+ If your application is not based on VR
+\begin_inset space ~
+\end_inset
+
+Juggler (e.g.
+ Teamcenter Visualization, Vizard), verify that the application's settings
+ are appropriately set.
+\end_layout
+
+\begin_layout Enumerate
+Make sure that the touchpanel shows all projectors on and not hidden.
+\end_layout
+
+\begin_layout Enumerate
+If your problem persists, proceed with the 
+\begin_inset CommandInset ref
+LatexCommand nameref
+reference "sub:Stereo-Issues"
+
+\end_inset
+
+ troubleshooting steps.
+ Note that if TestPattern works, the problem is likely in your application
+ or configuration file.
+\end_layout
+
+\begin_layout Section
+Shared Procedures
+\end_layout
+
 \begin_layout Standard
-\begin_inset Note Greyedout
+Where a troubleshooting procedure might apply to multiple scenarios, it
+ has been separated out here to avoid duplication.
+\end_layout
+
+\begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Shutting-Down-Reboot"
+
+\end_inset
+
+Shutting Down or Rebooting the System
+\end_layout
+
+\begin_layout Standard
+The single keyboard and mouse are connected only to the head node.
+ They control the render node through a software system (
+\begin_inset Quotes eld
+\end_inset
+
+Synergy
+\begin_inset Quotes erd
+\end_inset
+
+).
+ Thus, if the head node is not started up and fully functional, you will
+ not be able to control the render node.
+\end_layout
+
+\begin_layout Standard
+Shutting down the system is not typically necessary.
+ Rebooting is occasionally done as a troubleshooting measure.
+ In either case, the standard safe shutdown procedure should be followed,
+ one machine at a time, starting with the 
+\begin_inset Flex Emph
+status collapsed
+
+\begin_layout Plain Layout
+render node
+\end_layout
+
+\end_inset
+
+, then shutting down or rebooting the head node second.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Shadowbox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
 status open
 
 \begin_layout Plain Layout
-TODO.
-\end_layout
+A 
+\begin_inset Quotes eld
+\end_inset
+
+hard shutdown
+\begin_inset Quotes erd
+\end_inset
+
+ using the power button on the machines in the rack is to be 
+\begin_inset Flex Strong
+status collapsed
 
 \begin_layout Plain Layout
-Try app in simulator mode - still problem?
+avoided at all costs
 \end_layout
 
-\begin_layout Plain Layout
-Reboot.
-\end_layout
+\end_inset
 
-\begin_layout Plain Layout
-Email VRAC IT
+.
+ If the system freezes and there is no other way to shut it down, this may
+ be acceptable, but an email should be promptly sent to VRAC IT with a descripti
+on of what was happening when the system froze, which machines had to be
+ hard-shutdown, and the date and time of the issue.
 \end_layout
 
 \end_inset
@@ -496,17 +647,45 @@ Email VRAC IT
 
 \end_layout
 
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-TODO
-\end_layout
+\begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:TestPattern"
 
 \end_inset
 
+TestPattern
+\end_layout
 
+\begin_layout Standard
+This is a simple display test of stereo imaging to help isolate problems.
+ Including the results of running TestPattern in a help ticket when indicated
+ can save time for VRAC IT.
+\end_layout
+
+\begin_layout Standard
+On the render node, go to Start, All Programs, Mechdyne, Cavelibs, Utilities,
+ testpattern.
+ This should show, among other things, a bar that says 
+\begin_inset Quotes eld
+\end_inset
+
+left eye
+\begin_inset Quotes erd
+\end_inset
+
+ and a bar that says 
+\begin_inset Quotes eld
+\end_inset
+
+right eye
+\begin_inset Quotes erd
+\end_inset
+
+, on each of the walls.
+ If the eyes are switched, or if you can see both messages in either eye,
+ this would be an error condition worth noting.
+ Be sure to check each wall, including the floor.
 \end_layout
 
 \begin_layout Chapter
@@ -979,8 +1158,16 @@ Tracking
 \end_layout
 
 \begin_layout Standard
-An ART TrackPack 4 system provides position and orientation tracking in
- the physical volume.
+\begin_inset Flex NewThought
+status collapsed
+
+\begin_layout Plain Layout
+An ART TrackPack 4 system
+\end_layout
+
+\end_inset
+
+ provides position and orientation tracking in the physical volume.
  Its components and configuration are discussed below.
  When the tracking system is enabled, the 
 \begin_inset CommandInset ref
@@ -1285,6 +1472,26 @@ markers.
  of which are more versatile.
 \end_layout
 
+\begin_layout Standard
+Note that the tracking markers are very sensitive to dirt and skin oils:
+ this reduces their reflectivity and thus the reliability of the tracking.
+ Furthermore, they cannot be cleaned effectively, only replaced.
+ 
+\begin_inset Flex Strong
+status collapsed
+
+\begin_layout Plain Layout
+Do not touch them
+\end_layout
+
+\end_inset
+
+ with your hands (no matter how clean!), and avoid setting them directly
+ on any surface.
+ There are metal stands on the desk and nearby for the Wii Remote that hold
+ it up at an angle to keep the attached target from touching the table.
+\end_layout
+
 \begin_layout Subsection
 Stereo glasses target
 \end_layout
@@ -1534,8 +1741,8 @@ hand target,
  but unless you're tracking very small hands (or zombies who always keep
  the backs of their hands facing up) it doesn't work too well for this purpose.
  It's more wrist-sized, in my opinion, hence its de-facto name in METaL.
- It's currently attached to a dataglove (with the elastic around a ribbon
- cable), but can be moved around as desired.
+ It has been attached to a dataglove (with the elastic around a ribbon cable),
+ but can be moved around as desired.
  See 
 \begin_inset CommandInset ref
 LatexCommand formatted
@@ -1597,6 +1804,10 @@ Four of the five graphics cards in the system are connected to the render
 \end_layout
 
 \begin_layout Section
+Components
+\end_layout
+
+\begin_layout Subsection
 \begin_inset CommandInset label
 LatexCommand label
 name "sub:NVIDIA-Quadro-FX-5800"
@@ -1633,7 +1844,7 @@ http://www.nvidia.com/object/product_quadro_fx_5800_us.html
  One is installed in the head node in METaL.
 \end_layout
 
-\begin_layout Section
+\begin_layout Subsection
 \begin_inset CommandInset label
 LatexCommand label
 name "sub:NVIDIA-Quadro-Plex"
@@ -1745,7 +1956,7 @@ METaL's two NVIDIA Quadro Plex 2200 D2 systems mounted in the rack.
 
 \end_layout
 
-\begin_layout Section
+\begin_layout Subsection
 \begin_inset CommandInset label
 LatexCommand label
 name "sub:DuHIC"
@@ -1775,7 +1986,7 @@ reference "sub:NVIDIA-Quadro-Plex"
  Installed in the render node in METaL.
 \end_layout
 
-\begin_layout Section
+\begin_layout Subsection
 \begin_inset CommandInset label
 LatexCommand label
 name "sub:NVIDIA-G-Sync-II"
@@ -1812,6 +2023,512 @@ http://www.nvidia.com/page/quadrofx_gsync.html
 .
 \end_layout
 
+\begin_layout Section
+Configuration
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex NewThought
+status collapsed
+
+\begin_layout Plain Layout
+If you don't work for VRAC IT
+\end_layout
+
+\end_inset
+
+, this isn't the section you want to be reading: the configuration of the
+ Windows graphics driver on the render node is quite fragile and easily
+ goofed up.
+ What seems like an innocuous change (like updating a driver or changing
+ the order of the displays) can require a complete reset and repair of the
+ configuration.
+ So, unless you are on the receiving end of 
+\begin_inset Flex Code
+status collapsed
+
+\begin_layout Plain Layout
+help@vrac
+\end_layout
+
+\end_inset
+
+ help tickets, 
+\begin_inset Flex Emph
+status collapsed
+
+\begin_layout Plain Layout
+please skip this section!
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Windows
+\end_layout
+
+\begin_layout Standard
+Setting up the Windows driver is somewhat complicated and typically any
+ changes require the whole process below to be followed again.
+ Also note that each of the steps can cause re-configuration to happen that
+ might cause the mouse cursor to lag substantially.
+ It's best to wait until the system has finished applying these changes
+ and is working smoothly again before proceeding to the next step.
+\end_layout
+
+\begin_layout Enumerate
+In Windows Display Properties, under Settings, make sure that the displays
+ are ordered 1, 3, 4 (even though that doesn't reflect how they are physically
+ laid out on the desk) and that 1 is set as the main monitor (
+\begin_inset Quotes eld
+\end_inset
+
+display the taskbar on this display
+\begin_inset Quotes erd
+\end_inset
+
+).
+ If all was well, cancel out, else, apply, perhaps reboot, then continue.
+\end_layout
+
+\begin_layout Enumerate
+Open the NVIDIA Control Panel.
+\end_layout
+
+\begin_layout Enumerate
+Under 
+\begin_inset Quotes eld
+\end_inset
+
+Synchronize Displays,
+\begin_inset Quotes erd
+\end_inset
+
+ choose to disable synchronization.
+ If I remember correctly, that's done by 
+\begin_inset Quotes eld
+\end_inset
+
+Workstation, Synchronize Displays
+\begin_inset Quotes erd
+\end_inset
+
+, choosing 
+\begin_inset Quotes eld
+\end_inset
+
+On another system
+\begin_inset Quotes erd
+\end_inset
+
+, and applying that change.
+\end_layout
+
+\begin_layout Enumerate
+Under 
+\begin_inset Quotes eld
+\end_inset
+
+Display, Change Resolution
+\begin_inset Quotes erd
+\end_inset
+
+ set the appropriate settings for the three monitors.
+ They need a 
+\begin_inset Quotes eld
+\end_inset
+
+custom resolution
+\begin_inset Quotes erd
+\end_inset
+
+: 
+\begin_inset Flex Strong
+status collapsed
+
+\begin_layout Plain Layout
+1600x1200, 60Hz, CVT with Reduced Blanking
+\end_layout
+
+\end_inset
+
+.
+ See 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Setting-resolution"
+
+\end_inset
+
+.
+ Apply the changes and wait.
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Screenshots/change-resolution.jpg
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Change Resolution
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Screenshots/custom-res.jpg
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Custom Resolution
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Setting-resolution"
+
+\end_inset
+
+Setting resolution and refresh rate
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+In 
+\begin_inset Quotes eld
+\end_inset
+
+Manage 3D settings,
+\begin_inset Quotes erd
+\end_inset
+
+ choose the 
+\begin_inset Quotes eld
+\end_inset
+
+Base Group
+\begin_inset Quotes erd
+\end_inset
+
+, and make sure that Stereo is enabled - see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Base-Profile-Stereo-Settings"
+
+\end_inset
+
+.
+ Apply and wait.
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Screenshots/manage-3d-settings.jpg
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Base-Profile-Stereo-Settings"
+
+\end_inset
+
+
+\begin_inset Quotes eld
+\end_inset
+
+Base Profile
+\begin_inset Quotes erd
+\end_inset
+
+ - most important are the ones that start with 
+\begin_inset Quotes eld
+\end_inset
+
+Stereo
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Go to 
+\begin_inset Quotes eld
+\end_inset
+
+Workstation, Synchronize Displays.
+\begin_inset Quotes erd
+\end_inset
+
+ Choose that the Timing Server is on this system, and click the second (middle)
+ display.
+ 
+\begin_inset Flex Emph
+status collapsed
+
+\begin_layout Plain Layout
+This 
+\begin_inset Quotes eld
+\end_inset
+
+selection
+\begin_inset Quotes erd
+\end_inset
+
+ is actually a configuration option that is easily broken, since it defaults
+ to the first display every time you open this panel.
+\end_layout
+
+\end_inset
+
+ Server Settings should state that it is using its internal signal for sync.
+ Be sure that the other two displays are checked as active.
+ For an image of what this should look like, see 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Synchronize-Displays-tab"
+
+\end_inset
+
+.
+ Apply, and prepare to wait - this is the longest step typically, in close
+ competition with the disabling of synchronization.
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Screenshots/framelock-tab.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Synchronize-Displays-tab"
+
+\end_inset
+
+The correct appearance of the Synchronize Displays page
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Now, finally, we can check our work.
+ On the 
+\begin_inset Quotes eld
+\end_inset
+
+Workstation, System Topology
+\begin_inset Quotes erd
+\end_inset
+
+ page, verify that the settings look approximately like those shown in 
+\begin_inset CommandInset ref
+LatexCommand formatted
+reference "fig:Expected-Topology-page"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+For safety, reboot and check the topology again.
+ You probably also want to run 
+\begin_inset CommandInset ref
+LatexCommand nameref
+reference "sub:TestPattern"
+
+\end_inset
+
+ to check that stereo and sync are actually working.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Screenshots/expected-settings.jpg
+	height 100theight%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Expected-Topology-page"
+
+\end_inset
+
+Expected 
+\begin_inset Quotes eld
+\end_inset
+
+Topology
+\begin_inset Quotes erd
+\end_inset
+
+ page when everything is working right
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Chapter
 Display
 \end_layout
@@ -1822,10 +2539,6 @@ status open
 
 \begin_layout Plain Layout
 TODO.
-\end_layout
-
-\begin_layout Plain Layout
-XPAN-D X-101
 \end_layout
 
 \begin_layout Plain Layout
@@ -1857,6 +2570,141 @@ TODO
 \end_inset
 
 
+\end_layout
+
+\begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:XPAN-D-X-101"
+
+\end_inset
+
+XPAN-D X-101 Active Stereo Glasses
+\end_layout
+
+\begin_layout Standard
+These glasses are made by XPAN-D for use in digital cinemas
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+See 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.xpand.me/products/cinema-3d-glasses-x101/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
+\begin_inset Marginal
+status collapsed
+
+\begin_layout Plain Layout
+XPAN-D is the eventual corporate descendant of NuVision.
+ NuVision was an early competitor to StereoGraphics (makers of CrystalEyes
+ glasses), who is now owned by RealD, a competing 3D cinema company.
+\end_layout
+
+\end_inset
+
+ They are pictured in Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Glasses-target"
+
+\end_inset
+
+ with the tracking target attached, though note that only one pair of glasses
+ is tracked.
+ The stereo glasses alternate which lens is transparent based on infrared
+ signals from emitters positioned near the projector mirrors, to synchronize
+ with the correct viewpoint (right or left eye).
+ They automatically turn on and off based on whether they see infrared signals,
+ so it's very important to put them away in the cabinet after use to conserve
+ battery power.
+ The manufacturer claims 250 hours of battery life, but we haven't been
+ seeing results that good.
+\end_layout
+
+\begin_layout Standard
+When new, the batteries produce roughly 3.2
+\begin_inset space \thinspace{}
+\end_inset
+
+V.
+ The glasses stop working when the voltage drops to about 2.9
+\begin_inset space \thinspace{}
+\end_inset
+
+V.
+ Signs that the batteries may be dead include pulsing/flashing of the lenses
+ instead of the expected behavior.
+ The battery for each pair of glasses is a CR-2032 inside of a proprietary
+ plastic casing (
+\begin_inset Quotes eld
+\end_inset
+
+X-Battery
+\begin_inset Quotes erd
+\end_inset
+
+) that is most easily removed with a special tool.
+ If glasses stop working, please contact VRAC IT.
+\end_layout
+
+\begin_layout Standard
+The glasses used in METaL are different than most new X-101 glasses in that
+ their firmware is programmed to respond to an 
+\begin_inset Quotes eld
+\end_inset
+
+unencrypted
+\begin_inset Quotes erd
+\end_inset
+
+ IR signal.
+ Use of the 
+\begin_inset Quotes eld
+\end_inset
+
+encrypted
+\begin_inset Quotes erd
+\end_inset
+
+ IR emitters and glasses caused issues with synchronization.
+ The 
+\begin_inset Quotes eld
+\end_inset
+
+encryption
+\begin_inset Quotes erd
+\end_inset
+
+ seems to mainly be intended to prevent interoperation between brands, not
+ between facilities.
+ However, this does mean that any new X-101 glasses purchased should be
+ 
+\begin_inset Quotes eld
+\end_inset
+
+unencrypted
+\begin_inset Quotes erd
+\end_inset
+
+ to be compatible with VRAC systems.
 \end_layout
 
 \begin_layout Chapter
@@ -1996,7 +2844,7 @@ http://mrbs.sourceforge.net/
  on the behalf of the Vance research group.) It is for courtesy to others
  sharing the lab space in 1121 Black, as well as for courtesy to others
  who may want to use METaL.
- 
+ If you plan to use METaL, please reserve it to be a good neighbor.
 \end_layout
 
 \begin_layout Section
@@ -2305,6 +3153,34 @@ status collapsed
 \begin_layout Plain Layout
 jmvance@iastate.edu
 \end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Quick Start Guide (Windows)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+TODO: This version is outdated! Find or make an updated one, and include
+ the tracker IP address just in case.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset External
+	template PDFPages
+	filename /home/rpavlik/src/metal-instructions/quickstart/windows.pdf
 
 \end_inset
 
