@@ -780,7 +780,8 @@ Wint-O-Green
 \end_layout
 
 \begin_layout Itemize
-Drinking fountain is out the door, down the hallway toward the bathrooms.
+Drinking fountain is out the door, around the corner, down the hallway toward
+ the bathrooms.
  
 \begin_inset Note Note
 status open
@@ -2975,10 +2976,30 @@ markers
 \end_inset
 
 ).
+ Touching them degrades the reflective performance over time.
 \end_layout
 
 \begin_layout Itemize
 When the tracking cameras show two red LEDs, the system is on.
+\end_layout
+
+\begin_layout Itemize
+Remember to turn off the ART tracker when you are finished.
+ This can be done using the DTrack2 software.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Projectors
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Don't leave the projectors on.
+ Frequently switching them on and off is bad for the life of the bulb.
+ If you are leaving the room and will be gone for more than 1 hour, turn
+ the system off.
+ Otherwise, it's OK to leave it on.
 \end_layout
 
 \end_deeper
@@ -2989,10 +3010,44 @@ Floor is similar to a kitchen countertop so shoes are OK unlike the C6.
 \end_layout
 
 \begin_layout Itemize
+Be extremely careful of the screens, they are thin, flexible, and can easily
+ be punctured.
+ 
+\end_layout
+
+\begin_layout Itemize
 Black metal stands on the desk are for the Wii Remote to protect the tracking
  markers.
 \end_layout
 
+\begin_layout Itemize
+Virtuose
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+While operating the Virtuose haptic device, if it begins to shake, let go
+ of the handle rather than grasping it harder.
+ The device has a deadman switch that activates when you let go and turns
+ off applied forces.
+\end_layout
+
+\begin_layout Itemize
+Be mindeful of the long cord when moving the Virtuose around.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Nexus Robot
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+The robot should be plugged-in and charging after use or when leaving the
+ room for an extended period of time.
+\end_layout
+
+\end_deeper
 \end_deeper
 \begin_layout Itemize
 Putting items away
@@ -3009,7 +3064,10 @@ Make sure to turn off/unpair the Wii Remote before putting it away.
 \end_layout
 
 \begin_layout Itemize
-How to properly put away the wiimotes (to make sure they're charging)
+The Wiimote should be placed on the recharging station within the labeled
+ cabinet after use or when leaving the room for an extended period of time.
+ The light on the charging station will turn red indicating that it is charging
+ the batteries.
 \end_layout
 
 \begin_layout Itemize
@@ -3040,11 +3098,27 @@ S
 
  drive is shared between both machines.
  Hosted on render node for speed.
- All users have full access so be polite.
+ All users have full access so be polite, don't delete files unless you
+ are absolutely sure it's OK.
+ Try not to store personal files on the 
+\begin_inset Quotes eld
+\end_inset
+
+S
+\begin_inset Quotes erd
+\end_inset
+
+ drive, these should go on the VRAC user folder so that they are properly
+ backed-up.
 \end_layout
 
 \begin_layout Itemize
 Don't touch or even open the NVIDIA control panel settings.
+\end_layout
+
+\begin_layout Itemize
+The Bluetooth server computer is always on so there is no need to turn it
+ off.
 \end_layout
 
 \begin_layout Itemize
@@ -3061,6 +3135,11 @@ S
 
 \begin_layout Itemize
 JConf Visualizer on desktop can help you know what is defined.
+\end_layout
+
+\begin_layout Itemize
+If you have trouble connecting to the Wiimote, restart the VRPN server (see
+ the troubleshooting folder on the desktop).
 \end_layout
 
 \end_deeper
