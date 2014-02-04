@@ -2950,6 +2950,23 @@ reference "chap:Scheduling"
 \end_layout
 
 \begin_layout Itemize
+Keeping things clean
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+In the event the floor becomes dirty from foot traffic, it can be cleaned
+ using common cleaning solutions and a swiffer (should be onsite).
+ Feel free to clean the floor whenever neccessary.
+ WARNING: The walls are much more difficult to clean and smudges are often
+ perminent.
+ If you notice dirt on one of the walls contact help@vrac.iastate.edu for
+ assistance.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
 Hardware details (see 
 \begin_inset CommandInset ref
 LatexCommand nameref
@@ -3259,7 +3276,7 @@ TODO: This version is outdated! Find or make an updated one, and include
 \begin_layout Standard
 \begin_inset External
 	template PDFPages
-	filename /home/rpavlik/src/metal-instructions/quickstart/windows.pdf
+	filename C:/home/rpavlik/src/metal-instructions/quickstart/windows.pdf
 
 \end_inset
 
