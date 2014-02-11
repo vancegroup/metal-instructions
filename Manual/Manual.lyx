@@ -1683,6 +1683,8 @@ reference "fig:Claw-target"
 \end_inset
 
 .
+ It is presently mounted on the Haption Virtuose haptic device - please
+ ask before removing it.
  Don't confuse this with its baby sibling, the wrist target.
 \begin_inset Float marginfigure
 wide false
@@ -1739,11 +1741,13 @@ hand target,
 \begin_inset Quotes erd
 \end_inset
 
- but unless you're tracking very small hands (or zombies who always keep
- the backs of their hands facing up) it doesn't work too well for this purpose.
+ but unless you're tracking very small hands (or zombies who walk around
+ with the backs of their hands facing up) it doesn't work too well for this
+ purpose.
  It's more wrist-sized, in my opinion, hence its de-facto name in METaL.
  It has been attached to a dataglove (with the elastic around a ribbon cable),
- but can be moved around as desired.
+ a gamepad, a custom T-shaped interaction device, etc - it can be moved
+ around as desired.
  See 
 \begin_inset CommandInset ref
 LatexCommand formatted
