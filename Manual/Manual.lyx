@@ -3290,20 +3290,6 @@ Quick Start Guide (Windows)
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Greyedout
-status open
-
-\begin_layout Plain Layout
-TODO: This version is outdated! Find or make an updated one, and include
- the tracker IP address just in case.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 \begin_inset External
 	template PDFPages
 	filename ../quickstart/windows.pdf
