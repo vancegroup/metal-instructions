@@ -2824,37 +2824,29 @@ name "chap:Scheduling"
 
 \end_inset
 
-Being Good Neighbors: Scheduling
+Scheduling
 \end_layout
 
 \begin_layout Standard
-METaL uses a self-service booking system based on the Meeting Room Booking
- System (MRBS)
+METaL is a research facility supported by VRAC contracted IT services and
+ sharing lab space with other research groups.
+ Use of the facility for a given purpose shall be approved by VRAC before
+ you start.
+ In order to monitor facility usage and allocate maintenance effort, you
+ must reserve (preferably ahead of time) the facility any time you use it.
 \begin_inset Foot
 status collapsed
 
 \begin_layout Plain Layout
-\begin_inset Flex URL
-status collapsed
-
-\begin_layout Plain Layout
-
-http://mrbs.sourceforge.net/
-\end_layout
-
-\end_inset
-
-
+The formerly-available self-service booking system was discontinued due
+ to policy reasons.
 \end_layout
 
 \end_inset
 
 .
- (The web app is currently hosted by Ryan Pavlik on his personal web server,
- on the behalf of the Vance research group.) It is for courtesy to others
- sharing the lab space in 1121 Black, as well as for courtesy to others
- who may want to use METaL.
- If you plan to use METaL, please reserve it to be a good neighbor.
+ Reservation is also for courtesy to others sharing the lab space in 1121
+ Black.
 \end_layout
 
 \begin_layout Section
@@ -2862,7 +2854,8 @@ Making Reservations
 \end_layout
 
 \begin_layout Standard
-Access to create reservations is through the VRAC intranet wiki.
+At this time, all reservations must be made by requesting time via email.
+ The most recent contact person(s) can be found on the VRAC intranet wiki.
  On the wiki, clicking Facilities (on the left), then METaL will show you
  a page that includes information on how to make reservations.
  The direct link to this page is 
@@ -2953,8 +2946,42 @@ These are the topics covered in the training session for METaL.
 \end_layout
 
 \begin_layout Itemize
-Explain how to reserve the system online - required for demos, not required
- for just testing, though it's suggested.
+Walk around back and show the computer rack setup as well as the cabinet
+ that holds the equipment.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Render and head nodes
+\end_layout
+
+\begin_layout Itemize
+Tracking computer
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Restart them if necessary but usually the system is quite stable.
+\end_layout
+
+\begin_layout Itemize
+Please send in a help ticket and cc 
+\begin_inset Flex Code
+status collapsed
+
+\begin_layout Plain Layout
+jmvance@iastate.edu
+\end_layout
+
+\end_inset
+
+ if you have to do this
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+Explain how to reserve the system online - required.
  (See 
 \begin_inset CommandInset ref
 LatexCommand nameref
@@ -2966,18 +2993,51 @@ reference "chap:Scheduling"
 \end_layout
 
 \begin_layout Itemize
+Physical access: borrow a key from Judy Vance 
+\begin_inset Flex Code
+status collapsed
+
+\begin_layout Plain Layout
+jmvance@iastate.edu
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
 Keeping things clean
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
+Use the dust mop frequently to keep the floor clean, being careful not to
+ get grit between the edge of the floor and the screen.
+ If the dust mop gets dirty, switch dust mop heads and bring the dirty one
+ to Judy Vance.
+\end_layout
+
+\begin_layout Itemize
 In the event the floor becomes dirty from foot traffic, it can be cleaned
- using common cleaning solutions and a swiffer (should be onsite).
- Feel free to clean the floor whenever neccessary.
- WARNING: The walls are much more difficult to clean and smudges are often
- perminent.
- If you notice dirt on one of the walls contact help@vrac.iastate.edu for
- assistance.
+ using common cleaning solutions and a Swiffer (should be onsite).
+ Feel free to clean the floor whenever necessary.
+\end_layout
+
+\begin_layout Itemize
+WARNING: The walls are much more difficult to clean and smudges are almost
+ always permanent - see the shoe mark on the bottom of the left wall.
+ If you notice dirt on one of the walls contact 
+\begin_inset Flex Code
+status collapsed
+
+\begin_layout Plain Layout
+help@vrac.iastate.edu
+\end_layout
+
+\end_inset
+
+ for assistance.
  
 \end_layout
 
@@ -3028,7 +3088,8 @@ Projectors
 
 \begin_deeper
 \begin_layout Itemize
-Don't leave the projectors on.
+Don't leave the projectors on when not needed, but don't go overboard turning
+ them on and off.
  Frequently switching them on and off is bad for the life of the bulb.
  If you are leaving the room and will be gone for more than 1 hour, turn
  the system off.
@@ -3061,12 +3122,13 @@ Virtuose
 \begin_layout Itemize
 While operating the Virtuose haptic device, if it begins to shake, let go
  of the handle rather than grasping it harder.
- The device has a deadman switch that activates when you let go and turns
+ The device has a deadman switch that de-activates when you let go and turns
  off applied forces.
 \end_layout
 
 \begin_layout Itemize
 Be mindful of the long cord when moving the Virtuose around.
+ Pick up the device (with the arm over your shoulder), don't skid it.
 \end_layout
 
 \end_deeper
@@ -3076,45 +3138,11 @@ Nexus Robot
 
 \begin_deeper
 \begin_layout Itemize
-The robot should be plugged-in and charging after use or when leaving the
- room for an extended period of time.
+If using the battery pack, the robot should be plugged-in and charging after
+ use until the charger indicates a full battery (lights).
 \end_layout
 
 \end_deeper
-\end_deeper
-\begin_layout Itemize
-Putting items away
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Put equipment back in the proper labeled drawers
-\end_layout
-
-\begin_layout Itemize
-Make sure to turn off/unpair the Wii Remote before putting it away.
- (press and hold the power button on the Wii Remote)
-\end_layout
-
-\begin_layout Itemize
-The Wiimote should be placed on the recharging station within the labeled
- cabinet after use or when leaving the room for an extended period of time.
- The light on the charging station will turn red indicating that it is charging
- the batteries.
-\end_layout
-
-\begin_layout Itemize
-Don't leave the glasses out because they are always 
-\begin_inset Quotes eld
-\end_inset
-
-on
-\begin_inset Quotes erd
-\end_inset
-
- as long as they are in range of an emitter.
-\end_layout
-
 \end_deeper
 \begin_layout Itemize
 Software:
@@ -3143,6 +3171,7 @@ S
 
  drive, these should go on the VRAC user folder so that they are properly
  backed-up.
+ Anything here might disappear at any time.
 \end_layout
 
 \begin_layout Itemize
@@ -3171,8 +3200,8 @@ JConf Visualizer on desktop can help you know what is defined.
 \end_layout
 
 \begin_layout Itemize
-If you have trouble connecting to the Wiimote, restart the VRPN server (see
- the troubleshooting folder on the desktop).
+If you have trouble connecting to the Wii Remote, restart the VRPN server
+ (see the troubleshooting folder on the desktop).
 \end_layout
 
 \end_deeper
@@ -3195,43 +3224,42 @@ reference "sec:Severe-VRISE"
 \end_layout
 
 \begin_layout Itemize
-Instructions for usage are on the desk.
+Quick instructions for usage are on the desk.
 \end_layout
 
 \begin_layout Itemize
-Walk around back and show the computer rack setup as well as the cabinet
- that holds the equipment.
+Putting items away
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Render and head nodes
+Put equipment back in the proper labeled drawers
 \end_layout
 
 \begin_layout Itemize
-Tracking computer
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Restart them if necessary but usually the system is quite stable.
+Make sure to turn off/unpair the Wii Remote before putting it away.
+ (press and hold the power button on the Wii Remote)
 \end_layout
 
 \begin_layout Itemize
-Please send in a help ticket and cc 
-\begin_inset Flex Code
-status collapsed
-
-\begin_layout Plain Layout
-jmvance@iastate.edu
+The Wii Remote should be placed on the recharging station within the labeled
+ cabinet after use or when leaving the room for an extended period of time.
+ The light on the charging station will turn red indicating that it is charging
+ the batteries.
 \end_layout
 
+\begin_layout Itemize
+Don't leave the glasses out because they are always 
+\begin_inset Quotes eld
 \end_inset
 
- if you have to do this
+on
+\begin_inset Quotes erd
+\end_inset
+
+ as long as they are in range of an emitter.
 \end_layout
 
-\end_deeper
 \end_deeper
 \begin_layout Itemize
 In case of problems, send in a help ticket to 
@@ -3245,20 +3273,6 @@ help@vrac.iastate.edu
 \end_inset
 
  and cc 
-\begin_inset Flex Code
-status collapsed
-
-\begin_layout Plain Layout
-jmvance@iastate.edu
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Physical access: borrow a key from Judy Vance 
 \begin_inset Flex Code
 status collapsed
 
