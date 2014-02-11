@@ -3306,7 +3306,7 @@ TODO: This version is outdated! Find or make an updated one, and include
 \begin_layout Standard
 \begin_inset External
 	template PDFPages
-	filename C:/home/rpavlik/src/metal-instructions/quickstart/windows.pdf
+	filename ../quickstart/windows.pdf
 
 \end_inset
 
