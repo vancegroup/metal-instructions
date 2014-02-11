@@ -73,7 +73,7 @@ logicalmkup
 \begin_body
 
 \begin_layout Title
-METaL User Manual and Technical Details
+METaL User Manual
 \end_layout
 
 \begin_layout Author
@@ -142,10 +142,6 @@ LatexCommand tableofcontents
 \end_inset
 
 
-\end_layout
-
-\begin_layout Part
-User Manual
 \end_layout
 
 \begin_layout Chapter
@@ -826,10 +822,6 @@ jmvance@iastate.edu
 \end_inset
 
  with information on the situation, if possible.
-\end_layout
-
-\begin_layout Part
-System Details
 \end_layout
 
 \begin_layout Chapter
@@ -2920,11 +2912,8 @@ https://calendar.vrac.iastate.edu/home/metal@calendar.vrac.iastate.edu/Calendar.
 .
 \end_layout
 
-\begin_layout Part
-Appendix
-\end_layout
-
 \begin_layout Standard
+\start_of_appendix
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
 bibfiles "vancegroup-METaLInstructions"
