@@ -135,6 +135,67 @@ Photo credit Bob Elbert.
 
 \end_layout
 
+\begin_layout Full Width
+\begin_inset VSpace vfill
+\end_inset
+
+This document is collaboratively maintained.
+\end_layout
+
+\begin_layout Full Width
+Source: 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+https://github.com/vancegroup/metal-instructions
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+PDF: 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.vrac.iastate.edu/vancegroup/docs/METaLUserManual.pdf
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+The document you're reading was generated/formatted 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+today
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Full Width
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
 \begin_inset CommandInset toc
 LatexCommand tableofcontents
