@@ -2877,8 +2877,6 @@ https://intranet.vrac.iastate.edu/twiki/bin/view/TheLab/FacilityMETaL
 \end_inset
 
 .
- When creating a reservation, please include your name/contact information
- in case someone wishes to reach you about your scheduled time.
 \end_layout
 
 \begin_layout Section
@@ -2886,15 +2884,25 @@ Viewing Reservations
 \end_layout
 
 \begin_layout Standard
-The display board in METaL regularly shows the current week's reservation
- calendar directly from this system.
- The page it shows, which you can also access, is this one: 
-\begin_inset Flex URL
+The display board in METaL
+\begin_inset Foot
 status collapsed
 
 \begin_layout Plain Layout
+which has been a bit cantankerous lately
+\end_layout
 
-http://academic.cleardefinition.com/reservations/mrbs/web/week.php?area=2&room=2
+\end_inset
+
+ regularly shows the current week's reservation calendar directly from this
+ system.
+ The page it shows, which you can also access, is this one: 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://calendar.vrac.iastate.edu/home/metal@calendar.vrac.iastate.edu/Calendar.html
 \end_layout
 
 \end_inset
@@ -2905,14 +2913,13 @@ http://academic.cleardefinition.com/reservations/mrbs/web/week.php?area=2&room=2
 \begin_layout Standard
 The registration calendar is available as an iCal/webcal feed.
  If you'd like to add it to your Google Calendar, iCal, or Outlook (or other
- iCal-capable tool), see the following web page for the URLs and instructions:
- 
+ iCal-capable tool), add this URL: 
 \begin_inset Flex URL
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
-http://academic.cleardefinition.com/reservations/mrbs/web/ical_subscribe.php
+https://calendar.vrac.iastate.edu/home/metal@calendar.vrac.iastate.edu/Calendar.ics
 \end_layout
 
 \end_inset
