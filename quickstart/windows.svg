@@ -1477,17 +1477,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="527.8387"
-     inkscape:cy="458.20299"
+     inkscape:zoom="3.959798"
+     inkscape:cx="450.16724"
+     inkscape:cy="518.01116"
      inkscape:document-units="px"
-     inkscape:current-layer="g8617"
+     inkscape:current-layer="g9388"
      showgrid="false"
-     inkscape:window-width="1600"
-     inkscape:window-height="1113"
-     inkscape:window-x="1600"
-     inkscape:window-y="25"
-     inkscape:window-maximized="1" />
+     inkscape:window-width="534"
+     inkscape:window-height="453"
+     inkscape:window-x="158"
+     inkscape:window-y="176"
+     inkscape:window-maximized="0" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -1646,7 +1646,7 @@
              height="28.010326"
              width="219.68483"
              id="rect8894-6" /></flowRegion><flowPara
-           id="flowPara3490-3">(the controller is located at 192.168.100.22)</flowPara></flowRoot>    </g>
+           id="flowPara3490-3">(the controller is located at 192.168.1.22)</flowPara></flowRoot>    </g>
     <g
        id="g9088"
        transform="matrix(0.81997652,0,0,0.81997652,66.20568,-93.781213)">
@@ -2563,7 +2563,7 @@
            id="flowPara4302">4. Connect the Wii Remote.</flowPara><flowPara
            id="flowPara4304" /></flowRoot>      <path
          transform="matrix(0.62088815,0,0,2.254029,-23.041975,-638.7366)"
-         d="m 426.28438,617.25372 a 20.203051,10.101525 0 1 1 -40.4061,0 20.203051,10.101525 0 1 1 40.4061,0 z"
+         d="m 426.28438,617.25372 c 0,5.57892 -9.04521,10.10153 -20.20305,10.10153 -11.15784,0 -20.20305,-4.52261 -20.20305,-10.10153 0,-5.57892 9.04521,-10.10152 20.20305,-10.10152 11.15784,0 20.20305,4.5226 20.20305,10.10152 z"
          sodipodi:ry="10.101525"
          sodipodi:rx="20.203051"
          sodipodi:cy="617.25372"
