@@ -1478,10 +1478,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
-     inkscape:cx="416.93948"
-     inkscape:cy="357.69685"
+     inkscape:cx="527.8387"
+     inkscape:cy="458.20299"
      inkscape:document-units="px"
-     inkscape:current-layer="g9088"
+     inkscape:current-layer="g8617"
      showgrid="false"
      inkscape:window-width="1600"
      inkscape:window-height="1113"
@@ -1539,7 +1539,7 @@
        xml:space="preserve"
        id="flowRoot4227"
        style="font-size:32px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Delicious;-inkscape-font-specification:Delicious Medium"
-       transform="matrix(0.81997652,0,0,0.81997652,60.841685,28.704627)"><flowRegion
+       transform="matrix(0.81997652,0,0,0.81997652,60.841685,28.704566)"><flowRegion
          id="flowRegion4229"><rect
            id="rect4231"
            width="700"
@@ -1549,7 +1549,7 @@
            style="font-size:32px;font-weight:500;text-align:start;text-anchor:start;-inkscape-font-specification:Delicious Medium" /></flowRegion><flowPara
          id="flowPara4245">1. Log in to both machines.</flowPara><flowPara
          id="flowPara4243" /></flowRoot>    <flowRoot
-       transform="matrix(0.81997652,0,0,0.81997652,61.812537,77.668081)"
+       transform="matrix(0.81997652,0,0,0.81997652,61.812537,69.177894)"
        style="font-size:32px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Delicious;-inkscape-font-specification:Delicious Medium"
        id="flowRoot4247"
        xml:space="preserve"><flowRegion
@@ -1560,10 +1560,10 @@
            height="781.42859"
            width="700"
            id="rect4251" /></flowRegion><flowPara
-         id="flowPara4259">2. Turn on projectors (AMX touchpanel).</flowPara><flowPara
+         id="flowPara4259">2. Turn on projectors (using the AMX touchpanel).</flowPara><flowPara
          id="flowPara4261" /></flowRoot>    <g
        id="g9388"
-       transform="matrix(0.81997652,0,0,0.81997652,65.195527,21.187221)">
+       transform="matrix(0.81997652,0,0,0.81997652,65.195527,4.4168186)">
       <image
          width="257.20535"
          height="160.4026"
@@ -1634,10 +1634,22 @@
              width="700"
              id="rect4282" /></flowRegion><flowPara
            id="flowPara4288">3. Start DTrack2 on head node.</flowPara><flowPara
-           id="flowPara4290" /></flowRoot>    </g>
+           id="flowPara4290" /></flowRoot>      <flowRoot
+         transform="translate(-208.21555,-199.26699)"
+         style="font-size:9.75637722px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Delicious;-inkscape-font-specification:Delicious Medium"
+         id="flowRoot8890-4"
+         xml:space="preserve"><flowRegion
+           id="flowRegion8892-0"><rect
+             style="font-size:9.75637722px;font-weight:500;-inkscape-font-specification:Delicious Medium"
+             y="731.42859"
+             x="474.28571"
+             height="28.010326"
+             width="219.68483"
+             id="rect8894-6" /></flowRegion><flowPara
+           id="flowPara3490-3">(the controller is located at 192.168.100.22)</flowPara></flowRoot>    </g>
     <g
        id="g9088"
-       transform="matrix(0.81997652,0,0,0.81997652,66.20568,-82.352715)">
+       transform="matrix(0.81997652,0,0,0.81997652,66.20568,-93.781213)">
       <g
          transform="translate(-82.835357,-62.362183)"
          id="g8617">
@@ -1651,11 +1663,11 @@
              sodipodi:role="line"
              id="tspan6733"
              x="311.60486"
-             y="890.43323">press 1 and 2 on Wiimote:</tspan><tspan
+             y="890.43323">press 1 and 2 on Wii Remote:</tspan><tspan
              sodipodi:role="line"
              x="311.60486"
              y="912.93323"
-             id="tspan9402">lights will flash</tspan></text>
+             id="tspan9402">all four lights will flash</tspan></text>
         <g
            id="layer2-8"
            inkscape:label="wiimote"
@@ -2524,7 +2536,7 @@
          d="m 343.32097,765.84413 33.33504,0"
          style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:none;marker-end:url(#Arrow1Mend)" />
       <flowRoot
-         transform="translate(-95.003113,18.571429)"
+         transform="translate(-93.771184,-10.994858)"
          style="font-size:18px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Delicious;-inkscape-font-specification:Delicious Medium"
          id="flowRoot8890"
          xml:space="preserve"><flowRegion
@@ -2532,10 +2544,11 @@
              style="font-size:18px;font-weight:500;-inkscape-font-specification:Delicious Medium"
              y="731.42859"
              x="474.28571"
-             height="87.14286"
-             width="204.28572"
+             height="121.63689"
+             width="315.1593"
              id="rect8894" /></flowRegion><flowPara
-           id="flowPara8896">The first light should go solid and stay solid</flowPara></flowRoot>      <flowRoot
+           id="flowPara8896">Device server will auto-connect:</flowPara><flowPara
+           id="flowPara3490">The Wii Remote is ready to use when the correct light is lit (1 for the white controller, 2 for the black controller) and the controller rumbles briefly.</flowPara></flowRoot>      <flowRoot
          xml:space="preserve"
          id="flowRoot4292"
          style="font-size:32px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Delicious;-inkscape-font-specification:Delicious Medium"
@@ -2548,10 +2561,20 @@
              y="182.85715"
              style="font-size:32px;font-weight:500;text-align:start;text-anchor:start;-inkscape-font-specification:Delicious Medium" /></flowRegion><flowPara
            id="flowPara4302">4. Connect the Wii Remote.</flowPara><flowPara
-           id="flowPara4304" /></flowRoot>    </g>
+           id="flowPara4304" /></flowRoot>      <path
+         transform="matrix(0.62088815,0,0,2.254029,-23.041975,-638.7366)"
+         d="m 426.28438,617.25372 a 20.203051,10.101525 0 1 1 -40.4061,0 20.203051,10.101525 0 1 1 40.4061,0 z"
+         sodipodi:ry="10.101525"
+         sodipodi:rx="20.203051"
+         sodipodi:cy="617.25372"
+         sodipodi:cx="406.08133"
+         id="path6725-7"
+         style="fill:none;stroke:#0112ff;stroke-width:2.92499995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="arc" />
+    </g>
     <g
        id="g9431"
-       transform="matrix(0.94595974,0,0,0.94595974,19.873916,-83.187211)">
+       transform="matrix(0.94595974,0,0,0.94595974,19.873916,-103.10586)">
       <flowRoot
          transform="matrix(0.86681968,0,0,0.86681968,45.263636,598.82558)"
          style="font-size:32px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Delicious;-inkscape-font-specification:Delicious Medium"
@@ -2571,15 +2594,15 @@
          transform="matrix(0.86681968,0,0,0.86681968,-273.52306,158.32484)"><flowRegion
            id="flowRegion8892-7"><rect
              id="rect8894-4"
-             width="506.18332"
-             height="29.68729"
+             width="509.87909"
+             height="60.485531"
              x="474.28571"
              y="731.42859"
              style="font-size:18px;font-weight:500;text-align:start;text-anchor:start;-inkscape-font-specification:Delicious Medium" /></flowRegion><flowPara
-           id="flowPara8896-4">A shortcut to VR JuggLua is on the desktop of the render node.</flowPara></flowRoot>    </g>
+           id="flowPara8896-4">The desktop of the render node has folders of shortcuts, including the VR JuggLua interactive interface (&quot;NavTestbed&quot;).</flowPara></flowRoot>    </g>
     <g
        id="g4145"
-       transform="translate(0,-80.452008)">
+       transform="translate(0,-90.411337)">
       <flowRoot
          transform="matrix(0.81997652,0,0,0.81997652,-242.27502,245.66036)"
          style="font-size:18px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Delicious;-inkscape-font-specification:Delicious Medium"
@@ -2589,10 +2612,10 @@
              style="font-size:18px;font-weight:500;text-align:start;text-anchor:start;-inkscape-font-specification:Delicious Medium"
              y="731.42859"
              x="474.28571"
-             height="52.124672"
-             width="587.65515"
+             height="66.907837"
+             width="615.98956"
              id="rect8894-4-0" /></flowRegion><flowPara
-           id="flowPara3520">Make sure the Wii Remote is turned off before you put it away! Also, please see the diagram in the drawer for how to place the Wii Remote on the charger.</flowPara></flowRoot>      <flowRoot
+           id="flowPara3520">Turn off the Wii Remote(s) by pressing and holding the power button on the controller until the light turns off. Also, please see the diagram in the cabinet drawer for how to place the Wii Remote on the charger.</flowPara></flowRoot>      <flowRoot
          xml:space="preserve"
          id="flowRoot8898"
          style="font-size:32px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Delicious;-inkscape-font-specification:Delicious Medium"
