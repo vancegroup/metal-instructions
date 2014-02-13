@@ -2925,6 +2925,41 @@ https://intranet.vrac.iastate.edu/twiki/bin/view/TheLab/FacilityMETaL
 .
 \end_layout
 
+\begin_layout Standard
+\begin_inset Box Shadowbox
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Description
+Note: If your reservation is likely to disrupt other people in the 1121
+ Black lab area (lights off for extended periods of time, demo to a group),
+ notify 
+\begin_inset Flex Code
+status collapsed
+
+\begin_layout Plain Layout
+tbmorgan@iastate.edu
+\end_layout
+
+\end_inset
+
+ in addition to reserving the space on the VRAC calendar.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Viewing Reservations
 \end_layout
